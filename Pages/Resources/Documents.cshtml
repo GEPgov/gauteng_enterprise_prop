@@ -1,0 +1,131 @@
+﻿@page
+@model Gauteng_Enterprise_Propeller.Pages.Resources.DocumentsModel
+@{
+    ViewData["Title"] = "Annual Reports";
+}
+
+<div class="page-header bg-primary text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Annual Reports</h1>
+        <p class="lead">Access and download our annual performance reports</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    @if (Model.AnnualReports.Any())
+    {
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="alert alert-info" role="alert">
+                    <i class="fas fa-info-circle me-2"></i>
+                    <strong>@Model.AnnualReports.Count</strong> annual report(s) available for download
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var report in Model.AnnualReports)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-body d-flex flex-column">
+                            <div class="text-center mb-3">
+                                <i class="fas fa-file-pdf fa-4x text-danger"></i>
+                            </div>
+
+                            <h5 class="card-title text-center mb-3">@report.DisplayName</h5>
+
+                            <div class="report-info mb-3">
+                                @if (report.Year > 0)
+                                {
+                                    <p class="mb-2">
+                                        <i class="fas fa-calendar text-primary me-2"></i>
+                                        <strong>Year:</strong> @report.Year
+                                    </p>
+                                }
+                                <p class="mb-2">
+                                    <i class="fas fa-file text-success me-2"></i>
+                                    <strong>Size:</strong> @report.FileSize
+                                </p>
+                                <p class="mb-0 text-muted small">
+                                    <i class="fas fa-tag text-warning me-2"></i>
+                                    @report.FileName
+                                </p>
+                            </div>
+
+                            <div class="mt-auto">
+                                <a href="@report.FilePath" class="btn btn-primary w-100" download>
+                                    <i class="fas fa-download me-2"></i>Download PDF
+                                </a>
+                                <a href="@report.FilePath" class="btn btn-outline-secondary w-100 mt-2" target="_blank">
+                                    <i class="fas fa-eye me-2"></i>View Online
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Additional Information Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary mb-3">
+                            <i class="fas fa-question-circle me-2"></i>About Our Annual Reports
+                        </h4>
+                        <p class="card-text">
+                            Our annual reports provide comprehensive insights into GEP's performance, achievements,
+                            and financial standing throughout the year. These documents detail our strategic initiatives,
+                            impact on enterprise development, and commitment to transparency.
+                        </p>
+                        <p class="card-text mb-0">
+                            <strong>Need help?</strong> If you're unable to open or download a report, please contact us at
+                            <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a> or call
+                            <a href="tel:0870572000">087 057 2000</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-warning" role="alert">
+                    <h4 class="alert-heading">
+                        <i class="fas fa-exclamation-triangle me-2"></i>No Reports Available
+                    </h4>
+                    <p class="mb-0">
+                        There are currently no annual reports available for download.
+                        Please check back later or contact us at
+                        <a href="mailto:enquiries@gep.co.za" class="alert-link">enquiries@gep.co.za</a>
+                        for more information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .hover-shadow {
+        transition: all 0.3s ease;
+    }
+
+        .hover-shadow:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        }
+
+    .report-info p {
+        font-size: 0.95rem;
+    }
+
+    .card-title {
+        color: #2c3e50;
+        font-weight: 600;
+    }
+</style>

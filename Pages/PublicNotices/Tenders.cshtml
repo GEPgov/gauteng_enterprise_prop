@@ -1,0 +1,151 @@
+﻿@page
+@model Gauteng_Enterprise_Propeller.Pages.PublicNotices.TendersModel
+@{
+    ViewData["Title"] = "Tenders & RFPs";
+}
+
+<div class="page-header bg-primary text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Tenders & RFPs</h1>
+        <p class="lead">View current tenders and request for proposals from GEP</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="alert alert-warning">
+        <i class="fas fa-exclamation-triangle me-2"></i>
+        <strong>Important:</strong> All tenders must be submitted before the closing date and time.
+        Late submissions will not be accepted.
+    </div>
+
+    <!-- Active Tenders -->
+    <h3 class="text-primary mb-4">Active Tenders</h3>
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <span class="badge bg-success mb-2">OPEN</span>
+                            <h5 class="card-title">RFP: Business Development Services Provider</h5>
+                            <p class="card-text">
+                                GEP invites proposals from qualified service providers to deliver business development
+                                services including mentorship, coaching, and training to SMMEs.
+                            </p>
+                            <p class="mb-0">
+                                <strong>Tender No:</strong> GEP/2025/BDS/001<br>
+                                <strong>Closing Date:</strong> November 15, 2025, 12:00 PM
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                            <a href="#" class="btn btn-primary mb-2 d-block">
+                                <i class="fas fa-download me-1"></i>Download Document
+                            </a>
+                            <a href="#" class="btn btn-outline-primary d-block">
+                                <i class="fas fa-info-circle me-1"></i>More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 mb-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <span class="badge bg-success mb-2">OPEN</span>
+                            <h5 class="card-title">Supply and Delivery of Office Equipment</h5>
+                            <p class="card-text">
+                                Supply and delivery of various office equipment and furniture for GEP regional offices
+                                across Gauteng province.
+                            </p>
+                            <p class="mb-0">
+                                <strong>Tender No:</strong> GEP/2025/SCM/008<br>
+                                <strong>Closing Date:</strong> October 31, 2025, 11:00 AM
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                            <a href="#" class="btn btn-primary mb-2 d-block">
+                                <i class="fas fa-download me-1"></i>Download Document
+                            </a>
+                            <a href="#" class="btn btn-outline-primary d-block">
+                                <i class="fas fa-info-circle me-1"></i>More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Closed Tenders -->
+    <h3 class="text-primary mb-4 mt-5">Recently Closed Tenders</h3>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead class="table-light">
+                <tr>
+                    <th>Tender No.</th>
+                    <th>Description</th>
+                    <th>Closing Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GEP/2025/ICT/005</td>
+                    <td>IT Infrastructure Upgrade</td>
+                    <td>September 30, 2025</td>
+                    <td><span class="badge bg-danger">Closed</span></td>
+                    <td><a href="#" class="btn btn-sm btn-outline-secondary">View</a></td>
+                </tr>
+                <tr>
+                    <td>GEP/2025/MKT/003</td>
+                    <td>Marketing and Communications Services</td>
+                    <td>September 15, 2025</td>
+                    <td><span class="badge bg-danger">Closed</span></td>
+                    <td><a href="#" class="btn btn-sm btn-outline-secondary">View</a></td>
+                </tr>
+                <tr>
+                    <td>GEP/2025/TRN/002</td>
+                    <td>Training Programme Development</td>
+                    <td>August 31, 2025</td>
+                    <td><span class="badge bg-warning text-dark">Under Review</span></td>
+                    <td><a href="#" class="btn btn-sm btn-outline-secondary">View</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tender Guidelines -->
+    <div class="card border-0 shadow-sm mt-5">
+        <div class="card-header bg-info text-white">
+            <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Tender Submission Guidelines</h5>
+        </div>
+        <div class="card-body">
+            <h6>How to Submit a Tender:</h6>
+            <ol>
+                <li>Download the tender document from the link provided</li>
+                <li>Complete all required forms and documentation</li>
+                <li>Submit via email to <a href="mailto:tenders@gep.co.za">tenders@gep.co.za</a></li>
+                <li>Include tender reference number in email subject</li>
+                <li>Ensure submission before closing date and time</li>
+            </ol>
+
+            <h6 class="mt-4">Required Documents:</h6>
+            <ul>
+                <li>Company registration certificate (CIPC)</li>
+                <li>Tax clearance certificate</li>
+                <li>BEE certificate</li>
+                <li>Company profile and references</li>
+                <li>Completed tender forms</li>
+            </ul>
+
+            <div class="alert alert-info mt-3">
+                <i class="fas fa-phone me-2"></i>
+                For tender enquiries, contact: <strong>+27 (0) 11 833 5959</strong>
+            </div>
+        </div>
+    </div>

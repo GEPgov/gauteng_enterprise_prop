@@ -1,0 +1,212 @@
+﻿@page
+@model Gauteng_Enterprise_Propeller.Pages.Resources.FormsModel
+@{
+    ViewData["Title"] = "Application Forms";
+}
+
+<div class="page-header bg-primary text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Application Forms</h1>
+        <p class="lead">Download the forms you need to apply for GEP funding and support</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="alert alert-info">
+        <i class="fas fa-info-circle me-2"></i>
+        <strong>Note:</strong> All forms must be completed in full and submitted with required supporting documents.
+        Please read the instructions carefully before completing.
+    </div>
+
+    <div class="row">
+        <!-- Start-up Finance Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="fas fa-rocket me-2"></i>Start-up Finance</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Application form for new businesses seeking start-up capital up to R2 million.
+                    </p>
+                    <ul class="list-unstyled mb-3">
+                        <li><i class="fas fa-check text-success me-2"></i>For new businesses</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Up to R2 million</li>
+                        <li><i class="fas fa-check text-success me-2"></i>51% Black ownership required</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary me-2">
+                        <i class="fas fa-download me-1"></i>Download PDF
+                    </a>
+                    <a asp-page="/Apply/StartUp" class="btn btn-outline-primary">
+                        <i class="fas fa-edit me-1"></i>Apply Online
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contract Finance Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-file-contract me-2"></i>Contract Finance</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        For businesses with secured contracts requiring working capital or equipment financing.
+                    </p>
+                    <ul class="list-unstyled mb-3">
+                        <li><i class="fas fa-check text-success me-2"></i>Secured contracts required</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Working capital support</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Equipment financing available</li>
+                    </ul>
+                    <a href="#" class="btn btn-success me-2">
+                        <i class="fas fa-download me-1"></i>Download PDF
+                    </a>
+                    <a asp-page="/Apply/Contract" class="btn btn-outline-success">
+                        <i class="fas fa-edit me-1"></i>Apply Online
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Growth Finance Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="mb-0"><i class="fas fa-chart-line me-2"></i>Growth Finance</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        For existing businesses looking to expand operations and scale up their business.
+                    </p>
+                    <ul class="list-unstyled mb-3">
+                        <li><i class="fas fa-check text-success me-2"></i>Existing businesses only</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Expansion capital</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Up to R5 million</li>
+                    </ul>
+                    <a href="#" class="btn btn-warning me-2">
+                        <i class="fas fa-download me-1"></i>Download PDF
+                    </a>
+                    <a asp-page="/Apply/Growth" class="btn btn-outline-warning">
+                        <i class="fas fa-edit me-1"></i>Apply Online
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Franchise Finance Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="fas fa-store me-2"></i>Franchise Finance</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Funding to acquire a new or existing franchise, including working capital support.
+                    </p>
+                    <ul class="list-unstyled mb-3">
+                        <li><i class="fas fa-check text-success me-2"></i>New or existing franchises</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Franchise fees covered</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Working capital included</li>
+                    </ul>
+                    <a href="#" class="btn btn-info me-2">
+                        <i class="fas fa-download me-1"></i>Download PDF
+                    </a>
+                    <a asp-page="/Apply/Franchise" class="btn btn-outline-info">
+                        <i class="fas fa-edit me-1"></i>Apply Online
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Micro-finance Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0"><i class="fas fa-coins me-2"></i>Micro-finance</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Small loan program for micro, very small, and small businesses with growth potential.
+                    </p>
+                    <ul class="list-unstyled mb-3">
+                        <li><i class="fas fa-check text-success me-2"></i>Small businesses</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Job creation focus</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Flexible terms</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger me-2">
+                        <i class="fas fa-download me-1"></i>Download PDF
+                    </a>
+                    <a asp-page="/Apply/Micro" class="btn btn-outline-danger">
+                        <i class="fas fa-edit me-1"></i>Apply Online
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- General Application Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0"><i class="fas fa-file-alt me-2"></i>General Application</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        General application form if you're unsure which funding type suits your business.
+                    </p>
+                    <ul class="list-unstyled mb-3">
+                        <li><i class="fas fa-check text-success me-2"></i>All business types</li>
+                        <li><i class="fas fa-check text-success me-2"></i>We'll guide you</li>
+                        <li><i class="fas fa-check text-success me-2"></i>No commitment required</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary me-2">
+                        <i class="fas fa-download me-1"></i>Download PDF
+                    </a>
+                    <a asp-page="/Contact/General" class="btn btn-outline-secondary">
+                        <i class="fas fa-envelope me-1"></i>Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional Documents Section -->
+    <div class="mt-5">
+        <h3 class="text-primary mb-4">Additional Required Documents</h3>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title"><i class="fas fa-clipboard-list text-primary me-2"></i>Document Checklist</h6>
+                        <p class="card-text small">Complete list of required supporting documents</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-download me-1"></i>Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title"><i class="fas fa-book text-success me-2"></i>Application Guidelines</h6>
+                        <p class="card-text small">Step-by-step guide to completing your application</p>
+                        <a href="#" class="btn btn-outline-success btn-sm">
+                            <i class="fas fa-download me-1"></i>Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title"><i class="fas fa-question-circle text-warning me-2"></i>FAQs</h6>
+                        <p class="card-text small">Frequently asked questions about the application process</p>
+                        <a href="#" class="btn btn-outline-warning btn-sm">
+                            <i class="fas fa-download me-1"></i>Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

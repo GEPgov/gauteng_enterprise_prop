@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Gauteng Enterprise Propeller (GEP) promotes, fosters and develops small enterprises in Gauteng." />
+    <meta name="keywords" content="GEP, Gauteng Enterprise Propeller, SMME, funding, business support, entrepreneurship" />
+    <meta name="author" content="Gauteng Enterprise Propeller" />
+
+    <title>@ViewData["Title"] - The Gauteng Enterprise Propeller (GEP)</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Gauteng_Enterprise_Propeller.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    @await RenderSectionAsync("MetaTags", required: false)
+</head>
+<body>
+    <!-- Top Header Strip -->
+    <div class="top-header-strip">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="header-contact-info">
+                        <span>
+                            <a href="tel:+27118335959" aria-label="Call GEP">
+                                <i class="fas fa-phone" aria-hidden="true"></i> +27 (0) 11 833 5959
+                            </a>
+                        </span>
+                        <span>
+                            <a href="mailto:info@gep.co.za" aria-label="Email GEP">
+                                <i class="fas fa-envelope" aria-hidden="true"></i> info@gep.co.za
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://maps.google.com/?q=Johannesburg,Gauteng" target="_blank" rel="noopener" aria-label="Find us on Google Maps">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Johannesburg, Gauteng
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="header-social-links">
+                        <a href="https://www.facebook.com/gautengenterprisepropeller/" class="social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://x.com/GEP_ZA" class="social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/gauteng-enterprise-propeller/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.youtube.com/gautengenterprisepropeller" class="social-link" target="_blank" rel="noopener" aria-label="YouTube">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gep_za/" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header sticky-top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+                <div class="container-fluid">
+                    <!-- Logo Section -->
+                    <a class="navbar-brand" asp-area="" asp-page="/Index" aria-label="GEP Homepage">
+                        <img src="~/images/Logo/GEP Logo 2018 (Color).jpg" alt="GEP Logo" class="logo-main">
+                        <div class="brand-text">
+                            <h1 class="brand-title">GEP</h1>
+                            <p class="brand-subtitle">Gauteng Enterprise Propeller</p>
+                        </div>
+                    </a>
+
+                    <!-- Mobile Toggle Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navigation Menu -->
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <!-- Home -->
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                            </li>
+
+                            <!-- Who We Are Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="whoWeAreDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Who We Are
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="whoWeAreDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhoWeAre/About">About GEP</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhoWeAre/Mandate">Our Mandate</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhoWeAre/Vision">Vision & Mission</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhoWeAre/Board">Board of Directors</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhoWeAre/Management">Organizational Structure</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- What We Do -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="WhatWeDoDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    What We Do
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="WhatWeDo">
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/FinancialSupport">Financial Support</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/NonFunctionalSupport">Non-Functional Support</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/RevenueGeneration">Revenue Generation</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/Faqs">FAQS</a></li>
+                                    </ul>
+                            </li>
+
+                            <!-- Downloads/Resources Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Downloads
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Resources/Forms">Application Forms</a></li>
+                                    <li><a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Funding Guidelines</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Resources/Documents">Annual Reports</a></li>
+                                    <li><a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Strategic Plans</a></li>
+                                    <li><a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Policies & Procedures</a></li>
+                                </ul>
+
+                            </li>
+
+                            <!-- In The Media Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="newsDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    In The Media
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="newsDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Latest">Latest News</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Press">Press Releases</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Events">Events & Workshops</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Gallery">Media Gallery</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Success">Success Stories</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Public Notices Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="publicNoticesDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Public Notices
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="publicNoticesDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Tenders">Tenders & RFPs</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Vacancies">Career Opportunities</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/General">General Notices</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Legislation">Legislation & Bills</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Circulars">Circulars & Alerts</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Apply Dropdown -->
+                      
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://mis.gepportal.co.za/applyhome" target="_blank">
+                                    Apply
+                                </a>
+                            </li>
+
+                            <!-- Contact Us Dropdown -->
+                            @* <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contact Us
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/General">General Enquiries</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Support">Application Support</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Offices">Regional Offices</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Feedback">Feedback & Complaints</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Directions">Directions & Map</a></li>
+                                </ul>
+                            </li> *@
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-page="/Contact/Offices">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main role="main" class="main-content">
+        <!-- Alert Messages -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show m-3" role="alert">
+                <i class="fas fa-check-circle me-2"></i>
+                @TempData["SuccessMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show m-3" role="alert">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                @TempData["ErrorMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- About GEP Section -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="footer-widget">
+                            <h5 class="footer-widget-title">About GEP</h5>
+                            <img src="~/images/Logo/GEP Logo (White).png" alt="GEP Logo" class="footer-logo-img mb-3">
+                            <p class="footer-description">
+                                The Gauteng Enterprise Propeller (GEP) promotes, fosters and develops small enterprises in Gauteng
+                                thereby implementing the policy of the Gauteng Provincial Government for small enterprise development.
+                            </p>
+                            <div class="footer-social">
+                                <a href="https://www.facebook.com/gautengenterprisepropeller/" class="footer-social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://x.com/GEP_ZA" class="footer-social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/gauteng-enterprise-propeller/" class="footer-social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.youtube.com/gautengenterprisepropeller" class="footer-social-link" target="_blank" rel="noopener" aria-label="YouTube">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.instagram.com/gep_za/" class="footer-social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6 mb-4">
+                        <div class="footer-widget">
+                            <h5 class="footer-widget-title">Quick Links</h5>
+                            <ul class="footer-links">
+                                <li><a asp-area="" asp-page="/WhoWeAre/About">About GEP</a></li>
+                                <li><a asp-area="" asp-page="/WhoWeAre/Mandate">Our Mandate</a></li>
+                                <li><a asp-area="" asp-page="/News/Success">Success Stories</a></li>
+                                <li><a asp-area="" asp-page="/News/Latest">Latest News</a></li>
+                                <li><a asp-area="" asp-page="/Contact/General">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="footer-widget">
+                            <h5 class="footer-widget-title">Our Services</h5>
+                            <ul class="footer-links">
+                                <li><a asp-area="" asp-page="/Apply/StartUp">Start-up Finance</a></li>
+                                <li><a asp-area="" asp-page="/Apply/Contract">Contract Finance</a></li>
+                                <li><a asp-area="" asp-page="/Apply/Growth">Growth Finance</a></li>
+                                <li><a asp-area="" asp-page="/Apply/Franchise">Franchise Finance</a></li>
+                                <li><a asp-area="" asp-page="/Apply/Micro">Micro-finance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="footer-widget">
+                            <h5 class="footer-widget-title">Contact Information</h5>
+                            <div class="footer-contact">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <strong>Head Office:</strong><br>
+                                        Block A, Southdowns Office Park<br>
+                                        Corner John Vorster & Karee Street<br>
+                                        Irene, Centurion, 0157
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <strong>Phone:</strong><br>
+                                        <a href="tel:+27118335959">+27 (0) 11 833 5959</a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <strong>Email:</strong><br>
+                                        <a href="mailto:info@gep.co.za">info@gep.co.za</a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Office Hours:</strong><br>
+                                        Mon - Fri: 8:00 AM - 4:30 PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright mb-0">
+                            &copy; @DateTime.Now.Year The Gauteng Enterprise Propeller (GEP). All rights reserved.
+                            <br><small>NCRCP Registration: 3669</small>
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-bottom-links">
+                            <a asp-area="" asp-page="/Privacy">Privacy Policy</a>
+                            <span class="separator">|</span>
+                            <a asp-area="" asp-page="/Terms">Terms of Service</a>
+                            <span class="separator">|</span>
+                            <a asp-area="" asp-page="/Sitemap">Sitemap</a>
+                            <span class="separator">|</span>
+                            <a asp-area="" asp-page="/Accessibility">Accessibility</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Back to top button functionality
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Form validation enhancement
+        const forms = document.querySelectorAll('.needs-validation');
+        forms.forEach(form => {
+            form.addEventListener('submit', function(event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href.length > 1) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navbar = document.getElementById('mainNavbar');
+            const toggler = document.querySelector('.navbar-toggler');
+
+            if (navbar && navbar.classList.contains('show')) {
+                if (!navbar.contains(event.target) && !toggler.contains(event.target)) {
+                    toggler.click();
+                }
+            }
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

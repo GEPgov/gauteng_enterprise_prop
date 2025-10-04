@@ -1,0 +1,609 @@
+﻿@page
+@model Gauteng_Enterprise_Propeller.Pages.Contact.OfficesModel
+@{
+    ViewData["Title"] = "Regional Offices";
+}
+
+<div class="page-header bg-primary text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Our Regional Offices</h1>
+        <p class="lead">Find a GEP office near you across Gauteng Province</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    <!-- Four Ways to Contact Us -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="text-primary text-center mb-4">Four Ways to Contact Us</h2>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <i class="fas fa-phone fa-3x text-primary"></i>
+                    </div>
+                    <h5 class="card-title">Telephonically</h5>
+                    <p class="card-text">Call GEP Contact Centre</p>
+                    <a href="tel:0870572000" class="btn btn-outline-primary btn-sm">087 057 2000</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <i class="fas fa-laptop fa-3x text-success"></i>
+                    </div>
+                    <h5 class="card-title">Online</h5>
+                    <p class="card-text">Send a compliment or complaint</p>
+                    <a asp-page="/Contact/Feedback" class="btn btn-outline-success btn-sm">Submit Feedback</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <i class="fas fa-walking fa-3x text-warning"></i>
+                    </div>
+                    <h5 class="card-title">Walk-in</h5>
+                    <p class="card-text">Visit any GEP office</p>
+                    <a href="#offices" class="btn btn-outline-warning btn-sm">View Offices</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <i class="fas fa-envelope fa-3x text-info"></i>
+                    </div>
+                    <h5 class="card-title">Email</h5>
+                    <p class="card-text">Email us directly</p>
+                    <a href="mailto:gepenquiries@gep.co.za" class="btn btn-outline-info btn-sm">gepenquiries@gep.co.za</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <!-- Office Locations -->
+    <div id="offices">
+        <h2 class="text-primary text-center mb-5">Click on an office for direct contact details</h2>
+
+        <div class="row">
+            <!-- Head Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-lg">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>GEP HEAD OFFICE</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=124+Main+St+Johannesburg+2107" target="_blank" rel="noopener">
+                                    124 Main St, Johannesburg 2107, South Africa
+                                </a><br>
+                                <span class="ms-4">P.O Box 61464, Marshalltown 2107</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0110852001">011 085 2001</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 086 675 1329
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 9:00am to 3:00pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soweto Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>SOWETO</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Maponya+Mall+2127+Chris+Hani+Road+Soweto" target="_blank" rel="noopener">
+                                    Maponya Mall, Thusong Centre<br>
+                                    2127 Chris Hani Road, Soweto
+                                </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0119384257">011 938 4257</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Johannesburg Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>JOHANNESBURG</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=7th+Floor+124+Main+St+Johannesburg+2107" target="_blank" rel="noopener">
+                                    7th Floor, 124 Main St<br>
+                                    Johannesburg 2107, South Africa
+                                </a><br>
+                                <span class="ms-4">P.O Box 61464, Marshalltown 2107</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0110852001">011 085 2001</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 086 675 1329
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tshwane Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-warning text-dark">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>TSHWANE</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Block+G+333+Grosvenor+Street+Hatfield" target="_blank" rel="noopener">
+                                    Block G, 333 Grosvenor Street<br>
+                                    Hatfield Gardens, Hatfield
+                                </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0124302359">012 430 2359</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- West Rand Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-danger text-white">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>WEST RAND</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=23+Eloff+Street+Krugersdorp+1739" target="_blank" rel="noopener">
+                                    23 Eloff Street, Krugersdorp, 1739
+                                </a><br>
+                                <span class="ms-4">PO Box 1234, Krugersdorp, 1740</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0119509870">011 950 9870</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 011 950 9886
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bronkhorstspruit Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-secondary text-white">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>BRONKHORSTSPRUIT</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=43+Lanham+Street+Bronkhorstspruit" target="_blank" rel="noopener">
+                                    Lazarus building<br>
+                                    43 Lanham Street, Bronkhorstspruit
+                                </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0139323828">013 932 3828</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 013 932 3829
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sedibeng Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header text-white" style="background: linear-gradient(135deg, #1a4d2e, #2d5f3f);">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>SEDIBENG</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=36+Merriman+Avenue+Vereeniging+1930" target="_blank" rel="noopener">
+                                    36 Merriman Avenue<br>
+                                    Vereeniging, 1930
+                                </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0169101200">016 910 1200</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 016 910 1216
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ekurhuleni Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header text-white" style="background: linear-gradient(135deg, #1e3a8a, #2563eb);">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>EKURHULENI</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=188+Victoria+Street+Germiston+1400" target="_blank" rel="noopener">
+                                    Ground Floor, 188 Victoria Street<br>
+                                    Cnr Victoria & Spilsbury, Germiston, 1400
+                                </a><br>
+                                <span class="ms-4">PO Box 4574, Germiston South, 1411</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0118212870">011 821 2870</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mohlakeng Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>MOHLAKENG</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=3521+Ralerata+Street+Mohlakeng" target="_blank" rel="noopener">
+                                    3521 Ralerata Street<br>
+                                    Mohlakeng
+                                </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0114141753">011 414 1753</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 011 692 4683
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heidelberg Office -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-header bg-warning text-dark">
+                        <h4 class="mb-0"><i class="fas fa-building me-2"></i>HEIDELBERG</h4>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary mb-3">Contact Details</h6>
+                        <div class="office-info">
+                            <p>
+                                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                <strong>Address:</strong><br>
+                                <a href="https://www.google.com/maps/search/?api=1&query=52+Voortrekker+Road+Heidelberg" target="_blank" rel="noopener">
+                                    52 Voortrekker Road<br>
+                                    PG Glass, Unit 34, Heidelberg
+                                </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone text-success me-2"></i>
+                                <strong>Phone:</strong> <a href="tel:0163492658">016 349 2658</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-fax text-warning me-2"></i>
+                                <strong>Fax:</strong> 016 341 6206
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope text-info me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:enquiries@gep.co.za">enquiries@gep.co.za</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-headset text-danger me-2"></i>
+                                <strong>Enquiries:</strong> <a href="tel:0870572000">087 057 2000</a>
+                            </p>
+                        </div>
+
+                        <h6 class="text-primary mt-4 mb-3">Business Hours</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-clock text-success me-2"></i>Monday-Friday: 8:00am to 4:30pm</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Saturday: Closed</li>
+                            <li><i class="fas fa-times text-danger me-2"></i>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="card border-0 shadow-sm mt-5">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0"><i class="fas fa-map me-2"></i>Find Us on the Map</h4>
+        </div>
+        <div class="card-body p-0">
+            <!-- Google Maps Embed -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.6373179747976!2d28.042197615017955!3d-26.204103283442473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a47%3A0x238ac9d9b1d34041!2s124%20Main%20St%2C%20Johannesburg%2C%202001%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="p-3 bg-light">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="text-primary mb-3">Quick Navigation</h6>
+                        <select class="form-select" id="officeSelector" onchange="navigateToOffice(this.value)">
+                            <option value="">Select an office for directions...</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=124+Main+St+Johannesburg+2107">Head Office - Johannesburg</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=Maponya+Mall+Soweto">Soweto Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=7th+Floor+124+Main+St+Johannesburg">Johannesburg Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=333+Grosvenor+Street+Hatfield">Tshwane Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=23+Eloff+Street+Krugersdorp">West Rand Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=43+Lanham+Street+Bronkhorstspruit">Bronkhorstspruit Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=36+Merriman+Avenue+Vereeniging">Sedibeng Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=188+Victoria+Street+Germiston">Ekurhuleni Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=3521+Ralerata+Street+Mohlakeng">Mohlakeng Office</option>
+                            <option value="https://www.google.com/maps/dir/?api=1&destination=52+Voortrekker+Road+Heidelberg">Heidelberg Office</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <h6 class="text-primary mb-3">Need Help?</h6>
+                        <p class="mb-2">
+                            <i class="fas fa-phone text-success me-2"></i>
+                            Call us: <a href="tel:0870572000"><strong>087 057 2000</strong></a>
+                        </p>
+                        <p class="mb-0">
+                            <i class="fas fa-envelope text-info me-2"></i>
+                            Email: <a href="mailto:enquiries@gep.co.za"><strong>enquiries@gep.co.za</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function navigateToOffice(url) {
+        if (url) {
+            window.open(url, '_blank');
+        }
+    }
+</script>
+
+<style>
+    .office-info p {
+        margin-bottom: 15px;
+        padding-left: 30px;
+        position: relative;
+    }
+
+    .office-info i {
+        position: absolute;
+        left: 0;
+        top: 3px;
+    }
+
+    .office-info a {
+        color: var(--primary-dark-green);
+        font-weight: 600;
+    }
+
+        .office-info a:hover {
+            color: var(--lime-green);
+        }
+
+    .card-header h4 {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>

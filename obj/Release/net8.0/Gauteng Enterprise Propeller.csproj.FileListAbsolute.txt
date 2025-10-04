@@ -1,0 +1,32 @@
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\appsettings.Development.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\appsettings.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.staticwebassets.runtime.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.staticwebassets.endpoints.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.exe
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.deps.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.runtimeconfig.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.dll
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\Gauteng Enterprise Propeller.pdb
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.AssemblyInfoInputs.cache
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.AssemblyInfo.cs
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.csproj.CoreCompileInputs.cache
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.RazorAssemblyInfo.cache
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.RazorAssemblyInfo.cs
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\scopedcss\bundle\Gauteng Enterprise Propeller.styles.css
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\scopedcss\projectbundle\Gauteng Enterprise Propeller.bundle.scp.css
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.dll
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\refint\Gauteng Enterprise Propeller.dll
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.pdb
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.genruntimeconfig.cache
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\ref\Gauteng Enterprise Propeller.dll

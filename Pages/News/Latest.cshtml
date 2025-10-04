@@ -1,0 +1,140 @@
+﻿@page
+@model Gauteng_Enterprise_Propeller.Pages.News.LatestModel
+@{
+    ViewData["Title"] = "Latest News";
+}
+
+<div class="page-header bg-primary text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Latest News</h1>
+        <p class="lead">Stay updated with the latest news and announcements from GEP</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row">
+        <!-- News Article 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-primary">Funding</span>
+                        <small class="text-muted">October 1, 2025</small>
+                    </div>
+                    <h4 class="card-title">GEP Launches New Youth Enterprise Fund for 2025</h4>
+                    <p class="card-text">
+                        The Gauteng Enterprise Propeller is excited to announce the launch of a new Youth Enterprise Fund 
+                        aimed at supporting young entrepreneurs aged 18-35. Applications are now open with funding available 
+                        up to R2 million for qualifying businesses.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </article>
+        </div>
+
+        <!-- News Article 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-success">Success</span>
+                        <small class="text-muted">September 25, 2025</small>
+                    </div>
+                    <h4 class="card-title">Record-Breaking Year for SMME Support</h4>
+                    <p class="card-text">
+                        GEP has achieved remarkable milestones this year, supporting over 2,000 businesses and creating 
+                        more than 8,000 jobs across Gauteng. This represents a 35% increase from the previous year.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </article>
+        </div>
+
+        <!-- News Article 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-warning text-dark">Training</span>
+                        <small class="text-muted">September 18, 2025</small>
+                    </div>
+                    <h4 class="card-title">New Training Programs Available</h4>
+                    <p class="card-text">
+                        Enhanced skills development opportunities for entrepreneurs. GEP is rolling out comprehensive 
+                        training programs in business management, financial literacy, and digital marketing.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </article>
+        </div>
+
+        <!-- News Article 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-info">Partnership</span>
+                        <small class="text-muted">September 10, 2025</small>
+                    </div>
+                    <h4 class="card-title">GEP Partners with Major Retailers</h4>
+                    <p class="card-text">
+                        Strategic partnerships with leading retail chains will provide market access opportunities for 
+                        GEP-supported SMMEs, opening doors to new distribution channels.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </article>
+        </div>
+
+        <!-- News Article 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-danger">Announcement</span>
+                        <small class="text-muted">August 30, 2025</small>
+                    </div>
+                    <h4 class="card-title">Application Deadline Extended</h4>
+                    <p class="card-text">
+                        Due to high demand, GEP has extended the application deadline for Q3 funding to October 31, 2025. 
+                        Don't miss this opportunity to secure funding for your business.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </article>
+        </div>
+
+        <!-- News Article 6 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-secondary">Event</span>
+                        <small class="text-muted">August 20, 2025</small>
+                    </div>
+                    <h4 class="card-title">Upcoming Entrepreneurship Summit</h4>
+                    <p class="card-text">
+                        Join us for the Annual Gauteng Entrepreneurship Summit featuring keynote speakers, networking 
+                        opportunities, and workshops. Register now for this exciting event.
+                    </p>
+                    <a href="/News/Events" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <nav aria-label="News pagination" class="mt-4">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,137 @@
+wwwroot\annual-reports\Annual-Report-2005-2006.pdf
+wwwroot\annual-reports\Annual-Report-2007-2008.pdf
+wwwroot\annual-reports\Annual-Report-2008-2009.pdf
+wwwroot\annual-reports\Annual-Report-2009-2010.pdf
+wwwroot\annual-reports\Annual-Report-2010-2011.pdf
+wwwroot\annual-reports\Annual-Report-2011-2012.pdf
+wwwroot\annual-reports\Compiling_A_Winning_Marketing_Plan.pdf
+wwwroot\annual-reports\Exporting_Your_Business.pdf
+wwwroot\annual-reports\Final-GEP-APP-2018-19.pdf
+wwwroot\annual-reports\Franchising_As_Business_Option.pdf
+wwwroot\annual-reports\Gauteng-Department-of-Economic-Development-Quarterly-Bulletin-Q3-2020.pdf
+wwwroot\annual-reports\Gauteng-Enterprise-Propeller-GEP-report_2024_v5e_FD-singles-v-f2.pdf
+wwwroot\annual-reports\Gauteng-Township-Economic-Development-Act.pdf
+wwwroot\annual-reports\Gauteng-Township-Economy-Revitalisation-Strategy-2014-2019.pdf
+wwwroot\annual-reports\Gauteng_Enterprise_Propeller_Act_2005-2.pdf
+wwwroot\annual-reports\GDED-Project-Book-2025-Digital-copy-REV-8_WebRes.pdf
+wwwroot\annual-reports\GDEDAnnualPerformancePlan2015_163.pdf
+wwwroot\annual-reports\GDP-Snaphot-Q3_2020 (1).pdf
+wwwroot\annual-reports\GDP-Snaphot-Q3_2020.pdf
+wwwroot\annual-reports\GEP Annual Report 2019.pdf
+wwwroot\annual-reports\GEP-2017-Annual-Report.compressed-ilovepdf-compressed-ilovepdf-compressed.pdf
+wwwroot\annual-reports\GEP-202223-Annual-Performance-Plan.pdf
+wwwroot\annual-reports\GEP-2023_24-ANNUAL-PERFORMANCE-PLAN.pdf
+wwwroot\annual-reports\GEP-Annual Report-2020.pdf
+wwwroot\annual-reports\GEP-Annual-Performance-Plan-2019-2020.pdf
+wwwroot\annual-reports\GEP-Annual-Report-2012-2013.pdf
+wwwroot\annual-reports\GEP-Annual-Report-2014-2015.pdf
+wwwroot\annual-reports\GEP-Annual-Report-2016-210816-FINAL-FOR-PRINT.pdf
+wwwroot\annual-reports\GEP-Annual-Report-2019.pdf
+wwwroot\annual-reports\GEP-Annual-Report-2021.pdf
+wwwroot\annual-reports\GEP-Annual-Report-Final.pdf
+wwwroot\annual-reports\GEP-APP-2024-25.pdf
+wwwroot\annual-reports\GEP-Application-form-for-Financial-Assistance.pdf
+wwwroot\annual-reports\GEP-Business-Development-Support-Application-Form-19072016.pdf
+wwwroot\annual-reports\GEP-Checklist-for-Financial-Assistance.pdf
+wwwroot\annual-reports\GEP-Checklist-Form.pdf
+wwwroot\annual-reports\GEP-GRF-Flyer-A5-Informal-Trader-Image-2021.pdf
+wwwroot\annual-reports\GEP-GRF-Flyer-A5-SMME-Image-2021.pdf
+wwwroot\annual-reports\GEP-Signed-Revised-APP-2017-2018.pdf
+wwwroot\annual-reports\GEP-SMME-Application-Form (1).pdf
+wwwroot\annual-reports\GEP-SMME-Application-Form.pdf
+wwwroot\annual-reports\GEP-Strategic-Plan-2015-2019.pdf
+wwwroot\annual-reports\GEP_AR-2024-2025.pdf
+wwwroot\annual-reports\GEP_AR-WEB.pdf
+wwwroot\annual-reports\GEP_AR_2022-2023-Final-Print-Ready.pdf
+wwwroot\annual-reports\Growing_Your_Business.pdf
+wwwroot\annual-reports\Management-Tools.pdf
+wwwroot\annual-reports\Managing_Your_Cashflow.pdf
+wwwroot\annual-reports\PAIA-MANUAL.pdf
+wwwroot\annual-reports\Preparing-a-Business-Plan (1).pdf
+wwwroot\annual-reports\Preparing-a-Business-Plan.pdf
+wwwroot\annual-reports\Revised-GEP-2020-2012-APP-27072020-1.pdf
+wwwroot\annual-reports\Revised-GEP-5-Year-Strategic-Plan-27072020-1.pdf
+wwwroot\annual-reports\Signed-2014-2015-Annual-Performance-Plan.pdf
+wwwroot\annual-reports\STRATEGIC-FRAMEWORK-210120171.pdf
+wwwroot\annual-reports\TER-Evaluation.pdf
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\Board Members\Web Profile 2024- Mr Boy Ngobeni.png
+wwwroot\images\Board Members\Web Profile_Mr Abel Mawela_Board.png
+wwwroot\images\Board Members\Web Profile_Mr Amukelani Mashele_Board.png
+wwwroot\images\Board Members\Web Profile_Mr Sipho Mkhiza_Board.png
+wwwroot\images\Board Members\Web Profile_Ms Bulela Mgobozi_Board.png
+wwwroot\images\Board Members\Web Profile_Ms Cherity Morangwe-Diale_Board.png
+wwwroot\images\Board Members\Web Profile_Ms Kanabo Skhosana_Board.png
+wwwroot\images\Board Members\Web Profile_Ms Refilwe Letwaba_Board.png
+wwwroot\images\Board Members\Web Profile_Ms Sheila Sekhitla_Board.png
+wwwroot\images\GEP CI 02_06_2023.pdf
+wwwroot\images\GEP Colours.pdf
+wwwroot\images\GEP Typography (Fonts).pdf
+wwwroot\images\Logo\GEP Logo (White).png
+wwwroot\images\Logo\GEP Logo 2018 (Color).jpg
+wwwroot\images\Logo\GEP Logo 2018.pdf
+wwwroot\images\Management\Web Profile_Mr_Collin_Pitso_General_Manager_Corporate_Support_and_Administration 2025.png
+wwwroot\images\Management\Web Profile_Mr_Tinevimbo_Gondo_ Acting Chief Financial Officer 2025.png
+wwwroot\images\Management\Web Profile_Ms_Sibusisiwe_Ntuli_General_Manager_Risk_and_Audit_Management 2025.png
+wwwroot\images\Management\Web_Profile_Mr Richard_Manzini_Acting_Chief_Operations_Office 2025.png
+wwwroot\images\Management\Web_Profile_Mrs_Nosipho_Khonkwane_General_Manager_Strategy,_Monitoring_&_Evaluation_2025.png
+wwwroot\images\Management\Web_Profile_Saki_Zamxaka_Mr_Saki_Zamxaka_Chief_Executive _Officer 2025.png
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
