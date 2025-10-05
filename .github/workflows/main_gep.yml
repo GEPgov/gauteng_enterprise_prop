@@ -52,4 +52,4 @@ jobs:
           app-name: 'gep'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14280FFE12C54E05BDEE55CA65A7FC3D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_621360C2AE214583AC4158F8D1615C7A }}
