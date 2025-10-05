@@ -30,3 +30,10 @@ C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise P
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.pdb
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.genruntimeconfig.cache
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\ref\Gauteng Enterprise Propeller.dll
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\publish\web.config
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\publish\appsettings.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\publish\Gauteng Enterprise Propeller.deps.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\publish\Gauteng Enterprise Propeller.runtimeconfig.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\bin\Release\net8.0\publish\Gauteng Enterprise Propeller.staticwebassets.endpoints.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\obj\Release\net8.0\Gauteng Enterprise Propeller.sourcelink.json
