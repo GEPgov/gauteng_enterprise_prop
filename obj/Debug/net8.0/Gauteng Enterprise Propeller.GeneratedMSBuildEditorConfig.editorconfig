@@ -20,10 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Apply.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Apply/Contract.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbHlcQ29udHJhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Apply/StartUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbHlcU3RhcnRVcC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Contact/Directions.cshtml]
@@ -76,10 +68,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/News.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/News/Events.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xFdmVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -104,10 +92,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/PublicNotice.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGljTm90aWNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/PublicNotices/Circulars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGljTm90aWNlc1xDaXJjdWxhcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -126,10 +110,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/PublicNotices/Vacancies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGljTm90aWNlc1xWYWNhbmNpZXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Resources.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzb3VyY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Resources/Documents.cshtml]
@@ -152,10 +132,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzb3VyY2VzXFN0cmF0ZWd5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Servics.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vydmljcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -174,10 +150,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/WhatWeDo/RevenueGeneration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2hhdFdlRG9cUmV2ZW51ZUdlbmVyYXRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/WhoWeAre.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2hvV2VBcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VNgomane/source/repos/Gauteng Enterprise Propeller/Gauteng Enterprise Propeller/Pages/WhoWeAre/About.cshtml]
