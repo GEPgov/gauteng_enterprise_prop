@@ -1,130 +1,179 @@
 ﻿@page
 @model Gauteng_Enterprise_Propeller.Pages.News.LatestModel
 @{
-    ViewData["Title"] = "Latest News";
+    ViewData["Title"] = "Media Notices";
 }
 
 <div class="page-header bg-primary text-white py-5">
     <div class="container">
-        <h1 class="display-4">Latest News</h1>
-        <p class="lead">Stay updated with the latest news and announcements from GEP</p>
+        <h1 class="display-4">Media Notices</h1>
+        <p class="lead">Latest news, announcements and press releases from GEP</p>
     </div>
 </div>
 
 <div class="container py-5">
     <div class="row">
-        <!-- News Article 1 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-primary">Funding</span>
-                        <small class="text-muted">October 1, 2025</small>
+        <!-- Featured Article -->
+        <div class="col-12 mb-5">
+            <div class="card border-0 shadow-lg">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/news/R300-million-SMME-Crisis-Partnership-Fund-a-game-changer-for-township-business-1-1448x2048.jpg" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="SMME Crisis Fund Launch">
                     </div>
-                    <h4 class="card-title">GEP Launches New Youth Enterprise Fund for 2025</h4>
-                    <p class="card-text">
-                        The Gauteng Enterprise Propeller is excited to announce the launch of a new Youth Enterprise Fund 
-                        aimed at supporting young entrepreneurs aged 18-35. Applications are now open with funding available 
-                        up to R2 million for qualifying businesses.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <div class="col-md-7">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">Featured</span>
+                            <h3 class="card-title">Launch of R300 million SMME Crisis Partnership Fund</h3>
+                            <p class="text-muted mb-3"><i class="fas fa-calendar me-2"></i>5 October 2022</p>
+                            <p class="card-text">
+                                Today, the Gauteng Provincial Government, the Industrial Development Corporation (IDC) and the SA SME Fund launched the SMME Crisis Partnership Fund, a R300 million debt fund for small businesses based in Gauteng townships. This game-changing initiative aims to support township business inclusion and economic development.
+                            </p>
+                            <a href="~/documents/media/R300-million-SMME-Crisis-Partnership-Fund-a-game-changer-for-township-business-2022.pdf" class="btn btn-primary">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </article>
+            </div>
         </div>
 
-        <!-- News Article 2 -->
+        <!-- News Grid -->
         <div class="col-lg-4 col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/Gauteng-Township-Economic-Development-Act-Thumbnail-1448x2048.png" class="card-img-top" alt="Township Economic Development Act">
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-success">Success</span>
-                        <small class="text-muted">September 25, 2025</small>
-                    </div>
-                    <h4 class="card-title">Record-Breaking Year for SMME Support</h4>
+                    <span class="badge bg-success mb-2">Legislation</span>
+                    <h5 class="card-title">Gauteng Township Economic Development Act</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>May 2022</p>
                     <p class="card-text">
-                        GEP has achieved remarkable milestones this year, supporting over 2,000 businesses and creating 
-                        more than 8,000 jobs across Gauteng. This represents a 35% increase from the previous year.
+                        View our Gauteng Township Economic Development Act, a landmark legislation aimed at transforming township economies.
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="~/documents/media/Gauteng-Township-Economic-Development-Act.pdf" target="_blank" class="btn btn-outline-primary btn-sm">Read More</a>
                 </div>
-            </article>
+            </div>
         </div>
 
-        <!-- News Article 3 -->
         <div class="col-lg-4 col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/MEDIA-STATEMENT-ON-THE-ESTABLISHMENT-OF-SMME-CRISIS-FUND-29042022-1-1448x2048.jpg" class="card-img-top" alt="GEP Repositioned">
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-warning text-dark">Training</span>
-                        <small class="text-muted">September 18, 2025</small>
-                    </div>
-                    <h4 class="card-title">New Training Programs Available</h4>
+                    <span class="badge bg-warning text-dark mb-2">Announcement</span>
+                    <h5 class="card-title">A repositioned and highly focused GEP ready to mobilise R700m</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>November 2021</p>
                     <p class="card-text">
-                        Enhanced skills development opportunities for entrepreneurs. GEP is rolling out comprehensive 
-                        training programs in business management, financial literacy, and digital marketing.
+                        After positive changes, GEP has a new focus and is strengthened to deliver increased impact on the Gauteng economy.
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">Read More</a>
                 </div>
-            </article>
+            </div>
         </div>
 
-        <!-- News Article 4 -->
         <div class="col-lg-4 col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/MEDIA-STATEMENT-ON-THE-ESTABLISHMENT-OF-SMME-CRISIS-FUND-29042022-1-1448x2048.jpg" class="card-img-top" alt="Rebuilding Fund">
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-info">Partnership</span>
-                        <small class="text-muted">September 10, 2025</small>
-                    </div>
-                    <h4 class="card-title">GEP Partners with Major Retailers</h4>
+                    <span class="badge bg-info text-white mb-2">Funding</span>
+                    <h5 class="card-title">Gauteng Announces the Commencement of SMME Fund Applications</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>August 2021</p>
                     <p class="card-text">
-                        Strategic partnerships with leading retail chains will provide market access opportunities for 
-                        GEP-supported SMMEs, opening doors to new distribution channels.
+                        The Gauteng Rebuilding Fund supports businesses impacted by COVID-19 and recent township unrests.
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="~/documents/media/MEDIA-STATEMENT-ON-THE-ESTABLISHMENT-OF-SMME-CRISIS-FUND-29042022.pdf" class="btn btn-outline-primary btn-sm" target="_blank">Read More</a>
                 </div>
-            </article>
+            </div>
         </div>
 
-        <!-- News Article 5 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm">
+    @*     <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/r100-million-fund.jpg" class="card-img-top" alt="R100 Million Fund">
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-danger">Announcement</span>
-                        <small class="text-muted">August 30, 2025</small>
-                    </div>
-                    <h4 class="card-title">Application Deadline Extended</h4>
+                    <span class="badge bg-danger text-white mb-2">Press Release</span>
+                    <h5 class="card-title">MEC Parks Tau Announces R100 Million Gauteng Rebuilding Fund</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>August 2021</p>
                     <p class="card-text">
-                        Due to high demand, GEP has extended the application deadline for Q3 funding to October 31, 2025. 
-                        Don't miss this opportunity to secure funding for your business.
+                        R250M allocated via GEP to gear private and public sector investments for economic revitalization.
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
                 </div>
-            </article>
+            </div>
         </div>
 
-        <!-- News Article 6 -->
         <div class="col-lg-4 col-md-6 mb-4">
-            <article class="card h-100 border-0 shadow-sm">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/manufacturing-platform.jpg" class="card-img-top" alt="Manufacturing Platform">
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-secondary">Event</span>
-                        <small class="text-muted">August 20, 2025</small>
-                    </div>
-                    <h4 class="card-title">Upcoming Entrepreneurship Summit</h4>
+                    <span class="badge bg-secondary text-white mb-2">Initiative</span>
+                    <h5 class="card-title">Gauteng Township Manufacturing Platform</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>March 2019</p>
                     <p class="card-text">
-                        Join us for the Annual Gauteng Entrepreneurship Summit featuring keynote speakers, networking 
-                        opportunities, and workshops. Register now for this exciting event.
+                        Launch of the first Gauteng Township Manufacturers Platform to support small businesses in manufacturing.
                     </p>
-                    <a href="/News/Events" class="btn btn-outline-primary btn-sm">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
                 </div>
-            </article>
+            </div>
         </div>
-    </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/startup-kit.jpg" class="card-img-top" alt="Start Up Kit">
+                <div class="card-body">
+                    <span class="badge bg-success text-white mb-2">Youth Programme</span>
+                    <h5 class="card-title">GEP Start Up Kit Project</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>February 2019</p>
+                    <p class="card-text">
+                        Empowering unemployed youth with business ideas. Each beneficiary receives a Start Up Kit valued at R12,000.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/iboza-biznis.jpg" class="card-img-top" alt="iBoza Bizinis">
+                <div class="card-body">
+                    <span class="badge bg-warning text-dark mb-2">Media</span>
+                    <h5 class="card-title">iBoza Bizinis yaseKasi on Mzansi Magic 163</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>August 2018</p>
+                    <p class="card-text">
+                        Fast-paced reality TV business show showcasing township entrepreneurs, broadcast on Mzansi Wethu.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/construction-pitching.jpg" class="card-img-top" alt="Construction Pitching">
+                <div class="card-body">
+                    <span class="badge bg-primary text-white mb-2">Programme</span>
+                    <h5 class="card-title">Construction Pitching Booster Campaign Launch</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>June 2018</p>
+                    <p class="card-text">
+                        Three-day Construction Pitching Booster programme to empower construction sector SMMEs.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="~/images/news/township-awards.jpg" class="card-img-top" alt="Township Awards">
+                <div class="card-body">
+                    <span class="badge bg-info text-white mb-2">Awards</span>
+                    <h5 class="card-title">Township Entrepreneurship Awards Finalists</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-calendar me-2"></i>February 2018</p>
+                    <p class="card-text">
+                        45 finalists selected from over 300 entries following an intense judging process.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div> *@
 
     <!-- Pagination -->
-    <nav aria-label="News pagination" class="mt-4">
+    <nav aria-label="Page navigation" class="mt-5">
         <ul class="pagination justify-content-center">
             <li class="page-item disabled">
                 <a class="page-link" href="#" tabindex="-1">Previous</a>

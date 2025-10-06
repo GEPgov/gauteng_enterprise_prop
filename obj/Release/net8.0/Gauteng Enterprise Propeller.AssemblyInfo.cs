@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gauteng Enterprise Propeller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f64e6a2deb4433823e1bf45d9c62ece001a12406")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74f8a17e0bff2668d2c55ecb902875321b006b95")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gauteng Enterprise Propeller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gauteng Enterprise Propeller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

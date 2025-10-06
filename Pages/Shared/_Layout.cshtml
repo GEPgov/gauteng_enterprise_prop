@@ -120,10 +120,10 @@
                                     What We Do
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="WhatWeDo">
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/FinancialSupport">Financial Support</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/NonFunctionalSupport">Non-Functional Support</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/RevenueGeneration">Revenue Generation</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/WhatWeDo/Faqs">FAQS</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/WhatWeDo/FinancialSupport">Financial Support</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/WhatWeDo/NonFunctionalSupport">Non-Functional Support</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/WhatWeDo/RevenueGeneration">Revenue Generation</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/WhatWeDo/Faqs">FAQS</a></li>
                                     </ul>
                             </li>
 
@@ -150,11 +150,9 @@
                                     In The Media
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="newsDropdown">
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Latest">Latest News</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Press">Press Releases</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Events">Events & Workshops</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Latest">Media Notices</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Press">Supported Business</a></li>
                                     <li><a class="dropdown-item" asp-area="" asp-page="/News/Gallery">Media Gallery</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/News/Success">Success Stories</a></li>
                                 </ul>
                             </li>
 
@@ -166,10 +164,11 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="publicNoticesDropdown">
                                     <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Tenders">Tenders & RFPs</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Vacancies">Career Opportunities</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/General">General Notices</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Legislation">Legislation & Bills</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/PublicNotices/Circulars">Circulars & Alerts</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/PublicNotices/Tenders">BCM Training</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/PublicNotices/Vacancies">Career Opportunities</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/PublicNotices/General">General Notices</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/PublicNotices/Legislation">Legislation & Bills</a></li>
+                                    <li><a class="dropdown-item disabled" asp-area="" asp-page="/PublicNotices/Circulars">Circulars & Alerts</a></li>
                                 </ul>
                             </li>
 
@@ -180,21 +179,6 @@
                                     Apply
                                 </a>
                             </li>
-
-                            <!-- Contact Us Dropdown -->
-                            @* <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                    Contact Us
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="contactDropdown">
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/General">General Enquiries</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Support">Application Support</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Offices">Regional Offices</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Feedback">Feedback & Complaints</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-page="/Contact/Directions">Directions & Map</a></li>
-                                </ul>
-                            </li> *@
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-page="/Contact/Offices">
                                     Contact Us
@@ -272,9 +256,9 @@
                             <ul class="footer-links">
                                 <li><a asp-area="" asp-page="/WhoWeAre/About">About GEP</a></li>
                                 <li><a asp-area="" asp-page="/WhoWeAre/Mandate">Our Mandate</a></li>
-                                <li><a asp-area="" asp-page="/News/Success">Success Stories</a></li>
+                                <li><a asp-area="" asp-page="/News/Latest">Success Stories</a></li>
                                 <li><a asp-area="" asp-page="/News/Latest">Latest News</a></li>
-                                <li><a asp-area="" asp-page="/Contact/General">Contact Us</a></li>
+                                <li><a asp-area="" asp-page="/Contact/Offices">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -284,11 +268,11 @@
                         <div class="footer-widget">
                             <h5 class="footer-widget-title">Our Services</h5>
                             <ul class="footer-links">
-                                <li><a asp-area="" asp-page="/Apply/StartUp">Start-up Finance</a></li>
-                                <li><a asp-area="" asp-page="/Apply/Contract">Contract Finance</a></li>
-                                <li><a asp-area="" asp-page="/Apply/Growth">Growth Finance</a></li>
-                                <li><a asp-area="" asp-page="/Apply/Franchise">Franchise Finance</a></li>
-                                <li><a asp-area="" asp-page="/Apply/Micro">Micro-finance</a></li>
+                                <li><a asp-area="" asp-page="/">Start-up Finance</a></li>
+                                <li><a asp-area="" asp-page="/">Contract Finance</a></li>
+                                <li><a asp-area="" asp-page="/">Growth Finance</a></li>
+                                <li><a asp-area="" asp-page="/">Franchise Finance</a></li>
+                                <li><a asp-area="" asp-page="/">Micro-finance</a></li>
                             </ul>
                         </div>
                     </div>
@@ -301,10 +285,10 @@
                                 <div class="contact-item">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <div>
-                                        <strong>Head Office:</strong><br>
-                                        Block A, Southdowns Office Park<br>
-                                        Corner John Vorster & Karee Street<br>
-                                        Irene, Centurion, 0157
+                                        <strong>GEP Head Office:</strong><br>
+                                        124 Main Street<br>
+                                        Marshalltown, Johannesburg<br>
+                                        Gauteng
                                     </div>
                                 </div>
                                 <div class="contact-item">

@@ -1,4 +1,521 @@
-﻿@page
+﻿@* @page
 @model Gauteng_Enterprise_Propeller.Pages.News.PressModel
 @{
+    ViewData["Title"] = "Supported Businesses";
+}
+
+<div class="page-header bg-success text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Supported Businesses</h1>
+        <p class="lead">Success stories of businesses we've helped grow and thrive</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    <!-- Filter Options -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="btn-group" role="group" aria-label="Filter businesses">
+                <button type="button" class="btn btn-outline-primary active">All Stories</button>
+                <button type="button" class="btn btn-outline-primary">Manufacturing</button>
+                <button type="button" class="btn btn-outline-primary">Retail</button>
+                <button type="button" class="btn btn-outline-primary">Technology</button>
+                <button type="button" class="btn btn-outline-primary">Food & Beverage</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- TMF Gas -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/businesses/tmf-gas.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="TMF Gas">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Energy Sector</span>
+                            <h5 class="card-title">TMF Gas</h5>
+                            <p class="card-text">
+                                Under the leadership of Mr. Thapelo Mothala, TMF Gas turned their vision of bringing clean energy to communities into reality. Today, TMF Gas is an example of how entrepreneurship and collaboration can make a positive impact on the local economy.
+                            </p>
+                            <a href="#" class="btn btn-outline-success btn-sm">
+                                Read Full Story <i class="fas fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mumbai Spices -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/businesses/mumbai-spices.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Mumbai Spices">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Food & Beverage</span>
+                            <h5 class="card-title">Mumbai Spices</h5>
+                            <p class="card-text">
+                                Sameera Rasool's Mumbai Spices is a unique venture that fuses tradition and modern technology to create the perfect spice. Based in Kempton Park, they bring the finest spices from around the globe with GEP Youth Fund support.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning btn-sm">
+                                Read Full Story <i class="fas fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Voiceout Deaf -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/businesses/voiceout-deaf.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Voiceout Deaf">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span class="badge bg-info text-white mb-2">Agriculture</span>
+                            <h5 class="card-title">Voiceout Deaf</h5>
+                            <p class="card-text">
+                                Victoria Matebogo's vegetable production business keeps it fresh for you. Her motto: "I take every opportunity as if it's my only and last opportunity I will ever get." An inspiring story of a woman entrepreneur overcoming unique challenges.
+                            </p>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                Read Full Story <i class="fas fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bra Todd Supermarket -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/businesses/bra-todd.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Bra Todd Supermarket">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span class="badge bg-primary text-white mb-2">Retail</span>
+                            <h5 class="card-title">Bra Todd Supermarket</h5>
+                            <p class="card-text">
+                                Founded in 1985 by the Dibate family, this family-owned grocery store has given many young locals the opportunity of first-time employment and currently employs 30 people who are mostly women.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                Read Full Story <i class="fas fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pure B Baby Care -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/businesses/pure-b-baby.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Pure B Baby Care">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span class="badge bg-danger text-white mb-2">Manufacturing</span>
+                            <h5 class="card-title">Pure B Baby Care</h5>
+                            <p class="card-text">
+                                Specially formulated baby care products that help repair and protect skin at a cellular level. Fragrance-free, naturally anti-bacterial with anti-fungal formulae, yet gentle enough for newborns.
+                            </p>
+                            <a href="#" class="btn btn-outline-danger btn-sm">
+                                Read Full Story <i class="fas fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lemmechew Foods -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/businesses/lemmechew.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Lemmechew Foods">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span class="badge bg-secondary text-white mb-2">Food Manufacturing</span>
+                            <h5 class="card-title">Lemmechew Foods</h5>
+                            <p class="card-text">
+                                "Looking at where we started and where we are today, we are very proud of our progress. We want to reach many more homes, create employment opportunities, and become an international brand."
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">
+                                Read Full Story <i class="fas fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Updates -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h3 class="mb-4">Recent Updates & News</h3>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title text-primary">
+                        <i class="fas fa-trophy me-2"></i>Gauteng Economic Development Wins Big At The GPG Audit Awards 2024
+                    </h6>
+                    <p class="text-muted small mb-2">06 October 2024</p>
+                    <p class="card-text small">
+                        GDED Group agencies including the Gauteng Growth and Development Agency achieved significant recognition at the provincial audit awards.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title text-success">
+                        <i class="fas fa-handshake me-2"></i>MEC Lebogang Maile Commits to Resolving Liquor Licensing Challenges
+                    </h6>
+                    <p class="text-muted small mb-2">Recent</p>
+                    <p class="card-text small">
+                        The Liquor Board must expedite its processes. The focus is on improving turnaround times and communication for stakeholders.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-outline-success">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title text-warning">
+                        <i class="fas fa-clipboard-check me-2"></i>Qondis' Ishishini Lakho: Compliance-Driven Business Environment
+                    </h6>
+                    <p class="text-muted small mb-2">12 September 2024</p>
+                    <p class="card-text small">
+                        Campaign's inaugural blitz focused on Tembisa and Ivory Park, where 16 business premises were visited by a multi-disciplinary team.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-outline-warning">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="card bg-primary text-white mt-5">
+        <div class="card-body text-center py-5">
+            <h3 class="mb-3">Is Your Business the Next Success Story?</h3>
+            <p class="lead mb-4">Apply for GEP funding and join our growing list of successful entrepreneurs</p>
+            <a href="https://mis.gepportal.co.za/applyhome" target="_blank" class="btn btn-light btn-lg me-2">
+                <i class="fas fa-file-alt me-2"></i>Apply Now
+            </a>
+        </div>
+    </div>
+</div> *@
+
+    @page
+@model Gauteng_Enterprise_Propeller.Pages.News.PressModel
+@{
+    ViewData["Title"] = "Supported Businesses";
+}
+
+<div class="page-header bg-success text-white py-5">
+    <div class="container">
+        <h1 class="display-4">Supported Businesses</h1>
+        <p class="lead">Success stories of SMMEs supported by GEP funding and programmes</p>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Featured Story - Pick n Pay Market Store Initiative -->
+        <div class="col-12 mb-5">
+            <div class="card border-0 shadow-lg hover-lift featured-card">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="~/images/supported-businesses/PnP-Market-2.png" class="img-fluid h-100 object-fit-cover" alt="Pick n Pay Market Store">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body p-4">
+                            <span class="badge bg-danger mb-3">Featured</span>
+                            <h3 class="card-title">Gauteng Department of Economic Development Raises Concerns Over Pick n Pay Market Store Initiative</h3>
+                            <p class="card-text text-muted">
+                                It was expected to create jobs and boost local commerce. However, despite initial successes, including daily sales of over R350,000 at the first pilot store, serious operational and financial issues have plagued the project.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <small class="text-muted"><i class="fas fa-calendar-alt me-2"></i>Recent</small>
+                                <a href="~/documents/supported-businesses/pick-n-pay-initiative.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-success disabled">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- GDED Audit Awards -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/GPG-audit-awards-1-400x250.png" class="card-img-top" alt="GDED Audit Awards">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-info mb-2 align-self-start">Achievement</span>
+                    <h5 class="card-title">Gauteng Economic Development Wins Big At The GPG Audit Awards 2024</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        We are encouraged by this progress and will continue to strengthen financial controls, ensuring public funds benefit our communities.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-calendar-alt me-2"></i>06 Oct 2024</small>
+                        <a href="~/documents/supported-businesses/audit-awards-2024.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MEC Liquor Licensing -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/PnP-Market-2.png" class="card-img-top" alt="Liquor Licensing Meeting">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-warning text-dark mb-2 align-self-start">Policy</span>
+                    <h5 class="card-title">MEC Lebogang Maile Commits to Resolving Liquor Licensing Challenges</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        The Liquor Board must expedite its processes, but we will not dictate whether to issue or not issue licenses. The focus is on improving turnaround times and communication.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-calendar-alt me-2"></i>2024</small>
+                        <a href="~/documents/supported-businesses/liquor-licensing-challenges.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Qondis' Ishishini Lakho -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/QondisIshishini-5-400x250.jpg" class="card-img-top" alt="Ishishini Lakho Campaign">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-primary mb-2 align-self-start">Compliance</span>
+                    <h5 class="card-title">Qondis' Ishishini Lakho: Pioneering A Compliance-Driven Business Environment</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        The campaign's inaugural blitz focused on Tembisa and Ivory Park, where 16 business premises were visited by a multi-disciplinary team.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-calendar-alt me-2"></i>12 Sep 2024</small>
+                        <a href="~/documents/supported-businesses/ishishini-lakho-campaign.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Stories Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="mb-4 border-bottom pb-3">
+                <i class="fas fa-star text-warning me-2"></i>Success Stories
+            </h2>
+        </div>
+
+        <!-- TMF Gas -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/IMG-20240315-WA0025-400x250.jpg" class="card-img-top" alt="TMF Gas">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-success mb-2 align-self-start">Energy</span>
+                    <h5 class="card-title">TMF Gas</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        Today, TMF Gas is an example of how entrepreneurship and collaboration can make a positive impact on the local economy. Under the visionary leadership of Mr. Thapelo Mothala, they turned their ambitious vision of bringing clean energy to reality.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-building me-2"></i>Energy Sector</small>
+                        <a href="~/documents/supported-businesses/tmf-gas-success.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mumbai Spices -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/Screenshot-2024-04-17-at-16.06.32-400x250.png" class="card-img-top" alt="Mumbai Spices">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-success mb-2 align-self-start">Food & Beverage</span>
+                    <h5 class="card-title">Mumbai Spices</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        Sameera Rasool's Mumbai Spices is a unique venture that fuses tradition and modern technology to create the perfect spice. Based in Kempton Park, they bring the finest spices from around the globe, preserving their original flavour, scent, and texture.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-utensils me-2"></i>GEP Youth Fund</small>
+                        <a href="~/documents/supported-businesses/mumbai-spices-success.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Voiceout Deaf -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/IMG-20230603-WA0001-400x250.jpg" class="card-img-top" alt="Voiceout Deaf">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-success mb-2 align-self-start">Agriculture</span>
+                    <h5 class="card-title">Voiceout Deaf</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        <strong>Motto:</strong> "I take every opportunity as if it's my only and last opportunity I will ever get."<br>
+                        Meet Voiceout Deaf (Pty). A vegetable production aiming to keep it fresh for you. Being a woman entrepreneur comes with a unique set of challenges.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-leaf me-2"></i>Agriculture</small>
+                        <a href="~/documents/supported-businesses/voiceout-deaf-success.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bra Todd Supermarket -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/Picture-4-400x250.jpg" class="card-img-top" alt="Bra Todd Supermarket">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-success mb-2 align-self-start">Retail</span>
+                    <h5 class="card-title">Bra Todd Supermarket</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        Founded in 1985 by the Dibate family, Bra Todd Supermarket is a family-owned grocery store. The store has given many young locals the opportunity of first-time employment and currently employs 30 people who are mostly women.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-shopping-cart me-2"></i>Since 1985</small>
+                        <a href="~/documents/supported-businesses/bra-todd-success.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pure B Baby Care -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/Pure-Baby-400x250.jpg" class="card-img-top" alt="Pure B Baby Care">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-success mb-2 align-self-start">Healthcare</span>
+                    <h5 class="card-title">Pure B Baby Care</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        Our baby care products are specially formulated to help repair and protect the skin at a cellular level. They are fragrance-free, naturally anti-bacterial and contain anti-fungal formulae, but with all these capabilities, they remain gentle enough for newborns.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-baby me-2"></i>Baby Products</small>
+                        <a href="~/documents/supported-businesses/pure-b-baby-success.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lemmechew Foods -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+                <img src="~/images/supported-businesses/LemmeChew20220811LGBTQ1975-400x250.jpg" class="card-img-top" alt="Lemmechew Foods">
+                <div class="card-body d-flex flex-column">
+                    <span class="badge bg-success mb-2 align-self-start">Food Manufacturing</span>
+                    <h5 class="card-title">Lemmechew Foods</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        Looking at where we started, and where we are today, we are very proud of our progress, but we are looking to achieve far much more, reach many more homes, and create many more employment opportunities. We want to see us exporting our product and becoming an international brand.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-industry me-2"></i>Manufacturing</small>
+                        <a href="~/documents/supported-businesses/lemmechew-foods-success.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm disabled">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card bg-success text-white border-0 shadow-lg">
+                <div class="card-body text-center py-5">
+                    <h3 class="mb-3">Want to be Featured?</h3>
+                    <p class="lead mb-4">If you're a GEP-supported business with a success story to share, we'd love to hear from you!</p>
+                    <a href="/Contact" class="btn btn-light btn-lg disabled">
+                        <i class="fas fa-envelope me-2"></i>Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-lift:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }
+
+    .page-header {
+        background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .featured-card .card-img-top,
+    .featured-card img {
+        height: 100%;
+        min-height: 350px;
+    }
+
+    .object-fit-cover {
+        object-fit: cover;
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .card-title {
+        color: #2c3e50;
+        font-weight: 600;
+    }
+
+    .btn-outline-success:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0.5rem 1rem rgba(40, 167, 69, 0.3);
+    }
+</style>
+
+@section Scripts {
+    <script>
+        // Add smooth scroll behavior for any internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 }

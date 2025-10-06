@@ -1,77 +1,42 @@
 ﻿@page
 @model Gauteng_Enterprise_Propeller.Pages.PublicNotices.TendersModel
 @{
-    ViewData["Title"] = "Tenders & RFPs";
+    ViewData["Title"] = "Tenders & RFQs";
 }
 
 <div class="page-header bg-primary text-white py-5">
     <div class="container">
-        <h1 class="display-4">Tenders & RFPs</h1>
-        <p class="lead">View current tenders and request for proposals from GEP</p>
+        <h1 class="display-4">Tenders & RFQs</h1>
+        <p class="lead">View current Request for Quotations and tender documents from GEP</p>
     </div>
 </div>
 
 <div class="container py-5">
     <div class="alert alert-warning">
         <i class="fas fa-exclamation-triangle me-2"></i>
-        <strong>Important:</strong> All tenders must be submitted before the closing date and time.
-        Late submissions will not be accepted.
+        <strong>Important:</strong> All submissions must be received before the closing date and time. Late submissions will not be accepted.
     </div>
 
-    <!-- Active Tenders -->
-    <h3 class="text-primary mb-4">Active Tenders</h3>
-    <div class="row">
-        <div class="col-12 mb-4">
-            <div class="card border-0 shadow-sm">
+    <!-- Active RFQs (Open) -->
+    <h3 class="text-success mb-4"><i class="fas fa-folder-open me-2"></i>Open RFQs</h3>
+    <div class="row mb-5">
+        <!-- September 23 - Website Migration -->
+        <div class="col-12 mb-3">
+            <div class="card border-0 shadow-sm border-start border-success border-4">
                 <div class="card-body">
                     <div class="row align-items-center">
                         <div class="col-md-8">
                             <span class="badge bg-success mb-2">OPEN</span>
-                            <h5 class="card-title">RFP: Business Development Services Provider</h5>
-                            <p class="card-text">
-                                GEP invites proposals from qualified service providers to deliver business development
-                                services including mentorship, coaching, and training to SMMEs.
-                            </p>
+                            <h5 class="card-title mb-2">RFQ - Website Migration and Maintenance</h5>
+                            <p class="text-muted mb-2"><small><i class="fas fa-calendar-alt me-2"></i>Posted: September 23, 2025</small></p>
                             <p class="mb-0">
-                                <strong>Tender No:</strong> GEP/2025/BDS/001<br>
-                                <strong>Closing Date:</strong> November 15, 2025, 12:00 PM
+                                <strong><i class="fas fa-clock me-1 text-danger"></i>Closing Date:</strong> 10th October 2025 at 11:00 am
                             </p>
                         </div>
                         <div class="col-md-4 text-md-end mt-3 mt-md-0">
-                            <a href="#" class="btn btn-primary mb-2 d-block">
-                                <i class="fas fa-download me-1"></i>Download Document
-                            </a>
-                            <a href="#" class="btn btn-outline-primary d-block">
-                                <i class="fas fa-info-circle me-1"></i>More Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 mb-4">
-            <div class="card border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="row align-items-center">
-                        <div class="col-md-8">
-                            <span class="badge bg-success mb-2">OPEN</span>
-                            <h5 class="card-title">Supply and Delivery of Office Equipment</h5>
-                            <p class="card-text">
-                                Supply and delivery of various office equipment and furniture for GEP regional offices
-                                across Gauteng province.
-                            </p>
-                            <p class="mb-0">
-                                <strong>Tender No:</strong> GEP/2025/SCM/008<br>
-                                <strong>Closing Date:</strong> October 31, 2025, 11:00 AM
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-md-end mt-3 mt-md-0">
-                            <a href="#" class="btn btn-primary mb-2 d-block">
-                                <i class="fas fa-download me-1"></i>Download Document
-                            </a>
-                            <a href="#" class="btn btn-outline-primary d-block">
-                                <i class="fas fa-info-circle me-1"></i>More Details
+                            <a href="~/documents/rfq/September 23_RFQ- Website Migration and Maintenance .pdf"
+                               class="btn btn-primary" download>
+                                <i class="fas fa-download me-1"></i>Download PDF
                             </a>
                         </div>
                     </div>
@@ -80,72 +45,470 @@
         </div>
     </div>
 
-    <!-- Closed Tenders -->
-    <h3 class="text-primary mb-4 mt-5">Recently Closed Tenders</h3>
-    <div class="table-responsive">
-        <table class="table table-hover">
-            <thead class="table-light">
-                <tr>
-                    <th>Tender No.</th>
-                    <th>Description</th>
-                    <th>Closing Date</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>GEP/2025/ICT/005</td>
-                    <td>IT Infrastructure Upgrade</td>
-                    <td>September 30, 2025</td>
-                    <td><span class="badge bg-danger">Closed</span></td>
-                    <td><a href="#" class="btn btn-sm btn-outline-secondary">View</a></td>
-                </tr>
-                <tr>
-                    <td>GEP/2025/MKT/003</td>
-                    <td>Marketing and Communications Services</td>
-                    <td>September 15, 2025</td>
-                    <td><span class="badge bg-danger">Closed</span></td>
-                    <td><a href="#" class="btn btn-sm btn-outline-secondary">View</a></td>
-                </tr>
-                <tr>
-                    <td>GEP/2025/TRN/002</td>
-                    <td>Training Programme Development</td>
-                    <td>August 31, 2025</td>
-                    <td><span class="badge bg-warning text-dark">Under Review</span></td>
-                    <td><a href="#" class="btn btn-sm btn-outline-secondary">View</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <!-- Closed RFQs -->
+    <h3 class="text-danger mb-4"><i class="fas fa-folder me-2"></i>Closed RFQs</h3>
 
-    <!-- Tender Guidelines -->
-    <div class="card border-0 shadow-sm mt-5">
-        <div class="card-header bg-info text-white">
-            <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Tender Submission Guidelines</h5>
+    <!-- September -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary"><i class="fas fa-calendar me-2"></i>September 2025</h5>
         </div>
         <div class="card-body">
-            <h6>How to Submit a Tender:</h6>
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – Training and Development - Risk Management Training</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 22 September 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/September 17_RFQ – Training and Development- Risk Management Training .pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- August -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary"><i class="fas fa-calendar me-2"></i>August 2025</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">Re-issue: RFQ – Partnership Specialist Services</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 3 September 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/August 20  Re-issue- RFQ – Partnership Specialist Services .pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ : Business continuity management training</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 22 August 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/August 18_RFQ -Business continuity management training.zip"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download ZIP
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">Erratum: RFQ – Failover Link</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 21 August 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/August 14_Erratum- RFQ – Failover Link .pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ - GEP Stationery & Groceries For Krugersdorp Office</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 18 August 2025 at 11:00 AM
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/August 11_RFQ- GEP Stationery & Groceries For Krugersdorp Office.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ - Office Supply For Mohlakeng Office</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 18 August 2025 at 11:00 AM
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/August 11_RFQ - Office Supply For Mohlakeng Office.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – GEP Board and Oversight Committees Evaluation</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 15 August 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <span class="text-muted small">Document not available</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- July -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary"><i class="fas fa-calendar me-2"></i>July 2025</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">Erratum: Re-issue RFQ - UPS Maintenance 2025</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 31 July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 23_Erratum- Re-issue RFQ - UPS Maintenance 2025.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – Soweto Stationary & Groceries</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 24 July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 17_RFQ – Soweto Stationary & Groceries.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ - Annual Report for 2024-2025 Financial Year</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 21 July 2025 at 12:00 pm
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 15_RFQ- Annual Report for 2024- 2025 Financial Year.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ - Business Continuity Training</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 17 July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 10_RFQ - Business Continuity Training.zip"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download ZIP
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – UPS Maintenance 2025</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 16th July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 10_RFQ – UPS Maintenance 2025.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – Groceries</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 16th July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 09_RFQ – Groceries.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h6 class="mb-2">Erratum: RFQ – Co-Sourced Internal Audit Services</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 15th July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/July 01 Erratum- RFQ – Co-Sourced Internal Audit Services.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- June -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary"><i class="fas fa-calendar me-2"></i>June 2025</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">Re-issue: RFQ – Partnership Specialist Services</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 8th July 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/June 24_Re-issue- RFQ – Partnership Specialist Services .pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – Business Continuity Training</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 17 June 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/June 11_RFQ – Business Continuity Training.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – Employee Wellness Services</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 24 June 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/June 10_RFQ – Employee Wellness Services.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – PBX Telephone Management System 2025</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 19 June 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/June 04_RFQ – PBX Telephone Management System 2025.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ – Partnership Specialist Services</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 20th June 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/June 03_RFQ – Partnership Specialist Services.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- May -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary"><i class="fas fa-calendar me-2"></i>May 2025</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFP - Office Accommodation</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 13 June 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/May 27_RFP - Office Accommodation.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ - Veeam Availability Suite Universal Subscription License</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 8th May 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/May 01_RFQ - Veeam Availability Suite Universal Subscription License.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- April -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary"><i class="fas fa-calendar me-2"></i>April 2025</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFP - Annual Report Design and Publication</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 2 May 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/April 12_RFP - Annual Report Design and Publication.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-3 pb-3 border-bottom">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFP - Office Accommodation</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 25 April 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/April 07_RFP - Office Accommodation .pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h6 class="mb-2">RFQ - Recruitment vetting services 2025</h6>
+                    <p class="text-muted small mb-1">
+                        <i class="fas fa-clock me-1"></i>Closed: 10 April 2025 at 11:00 am
+                    </p>
+                    <span class="badge bg-danger">Closed</span>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="~/documents/rfq/April 05_ RFQ - Recruitment vetting services 2025.pdf"
+                       class="btn btn-outline-primary btn-sm" download>
+                        <i class="fas fa-download me-1"></i>Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submission Guidelines -->
+    <div class="card border-0 shadow-sm mt-5">
+        <div class="card-header bg-info text-white">
+            <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>RFQ Submission Guidelines</h5>
+        </div>
+        <div class="card-body">
+            <h6>How to Submit an RFQ Response:</h6>
             <ol>
-                <li>Download the tender document from the link provided</li>
+                <li>Download the RFQ document from the link provided above</li>
+                <li>Read all requirements and specifications carefully</li>
                 <li>Complete all required forms and documentation</li>
-                <li>Submit via email to <a href="mailto:tenders@gep.co.za">tenders@gep.co.za</a></li>
-                <li>Include tender reference number in email subject</li>
-                <li>Ensure submission before closing date and time</li>
+                <li>Submit via email to <a href="mailto:rfq@gep.co.za">rfq@gep.co.za</a></li>
+                <li>Include RFQ reference number in email subject line</li>
+                <li>Ensure submission is received before the closing date and time</li>
             </ol>
 
-            <h6 class="mt-4">Required Documents:</h6>
+            <h6 class="mt-4">Typically Required Documents:</h6>
             <ul>
                 <li>Company registration certificate (CIPC)</li>
                 <li>Tax clearance certificate</li>
-                <li>BEE certificate</li>
+                <li>BEE certificate (if applicable)</li>
                 <li>Company profile and references</li>
-                <li>Completed tender forms</li>
+                <li>Completed RFQ response forms</li>
+                <li>Pricing schedule</li>
             </ul>
 
             <div class="alert alert-info mt-3">
                 <i class="fas fa-phone me-2"></i>
-                For tender enquiries, contact: <strong>+27 (0) 11 833 5959</strong>
+                For RFQ enquiries, contact: <strong>+27 (0) 11 833 5959</strong><br>
+                <i class="fas fa-envelope me-2"></i>
+                Email: <strong>rfq@gep.co.za</strong>
             </div>
         </div>
     </div>
+</div>

@@ -55,6 +55,48 @@ wwwroot\annual-reports\Signed-2014-2015-Annual-Performance-Plan.pdf
 wwwroot\annual-reports\STRATEGIC-FRAMEWORK-210120171.pdf
 wwwroot\annual-reports\TER-Evaluation.pdf
 wwwroot\css\site.css
+wwwroot\documents\media\CONSTRUCTION-PITCHING-BOOSTER-CAMPAIGN-LAUNCH-PRESS-RELEASE.pdf
+wwwroot\documents\media\eNotice-MEC-Kgosientsho_compressed.pdf
+wwwroot\documents\media\Gauteng-Township-Economic-Development-Act.pdf
+wwwroot\documents\media\Gauteng-Township-Manufacturing-Platform.pdf
+wwwroot\documents\media\GEP-Media-Statement.pdf
+wwwroot\documents\media\JOF-Announcement.pdf
+wwwroot\documents\media\MEC-ANNOUNCEMENT-NEWSFLASH-1.pdf
+wwwroot\documents\media\Media-Advisory_-TV-Show-final.pdf
+wwwroot\documents\media\Media-Advisory_Start-Up-Kit.pdf
+wwwroot\documents\media\Media-Advisory_Township-Entrepreneurship-Finalists-Announcement-Final.pdf
+wwwroot\documents\media\MEDIA-STATEMENT-GAUTENG-ANNOUNCES-THE-COMMENCEMENT-OF-SMME-FUND-APPLICATIONS.pdf
+wwwroot\documents\media\MEDIA-STATEMENT-ON-THE-ESTABLISHMENT-OF-SMME-CRISIS-FUND-29042022.pdf
+wwwroot\documents\media\R300-million-SMME-Crisis-Partnership-Fund-a-game-changer-for-township-business-2022.pdf
+wwwroot\documents\media\STATEMENT-BY-MEC-PARKS-TAU-TO-ANNOUNCE-THE-R100-MILLION-GAUTENG-REBUILDING-FUND-ON-THE-24-OF-AUGUST-2021-AT-THE-WAR-ROOM-WAVER.pdf
+wwwroot\documents\media\The-Gauteng-Rebuilding-Fund.pdf
+wwwroot\documents\rfq\April 05_ RFQ - Recruitment vetting services 2025.pdf
+wwwroot\documents\rfq\April 07_RFP - Office Accommodation  (1).pdf
+wwwroot\documents\rfq\April 07_RFP - Office Accommodation .pdf
+wwwroot\documents\rfq\April 12_RFP - Annual Report Design and Publication.pdf
+wwwroot\documents\rfq\August 01_RFQ – GEP Board and Oversight Committees Evaluation.pdf
+wwwroot\documents\rfq\August 11_RFQ - Office Supply For Mohlakeng Office.pdf
+wwwroot\documents\rfq\August 11_RFQ- GEP Stationery & Groceries For Krugersdorp Office.pdf
+wwwroot\documents\rfq\August 14_Erratum- RFQ – Failover Link .pdf
+wwwroot\documents\rfq\August 18_RFQ -Business continuity management training.zip
+wwwroot\documents\rfq\August 20  Re-issue- RFQ – Partnership Specialist Services .pdf
+wwwroot\documents\rfq\July 01 Erratum- RFQ – Co-Sourced Internal Audit Services.pdf
+wwwroot\documents\rfq\July 09_RFQ – Groceries.pdf
+wwwroot\documents\rfq\July 10_RFQ - Business Continuity Training.zip
+wwwroot\documents\rfq\July 10_RFQ – UPS Maintenance 2025.pdf
+wwwroot\documents\rfq\July 15_RFQ- Annual Report for 2024- 2025 Financial Year.pdf
+wwwroot\documents\rfq\July 17_RFQ – Soweto Stationary & Groceries.pdf
+wwwroot\documents\rfq\July 23_Erratum- Re-issue RFQ - UPS Maintenance 2025.pdf
+wwwroot\documents\rfq\June 03_RFQ – Partnership Specialist Services (1).pdf
+wwwroot\documents\rfq\June 03_RFQ – Partnership Specialist Services.pdf
+wwwroot\documents\rfq\June 04_RFQ – PBX Telephone Management System 2025.pdf
+wwwroot\documents\rfq\June 10_RFQ – Employee Wellness Services.pdf
+wwwroot\documents\rfq\June 11_RFQ – Business Continuity Training.pdf
+wwwroot\documents\rfq\June 24_Re-issue- RFQ – Partnership Specialist Services .pdf
+wwwroot\documents\rfq\May 01_RFQ - Veeam Availability Suite Universal Subscription License.pdf
+wwwroot\documents\rfq\May 27_RFP - Office Accommodation.pdf
+wwwroot\documents\rfq\September 17_RFQ – Training and Development- Risk Management Training .pdf
+wwwroot\documents\rfq\September 23_RFQ- Website Migration and Maintenance .pdf
 wwwroot\favicon.ico
 wwwroot\images\Board Members\Web Profile 2024- Mr Boy Ngobeni.png
 wwwroot\images\Board Members\Web Profile_Mr Abel Mawela_Board.png
@@ -77,6 +119,25 @@ wwwroot\images\Management\Web Profile_Ms_Sibusisiwe_Ntuli_General_Manager_Risk_a
 wwwroot\images\Management\Web_Profile_Mr Richard_Manzini_Acting_Chief_Operations_Office 2025.png
 wwwroot\images\Management\Web_Profile_Mrs_Nosipho_Khonkwane_General_Manager_Strategy,_Monitoring_&_Evaluation_2025.png
 wwwroot\images\Management\Web_Profile_Saki_Zamxaka_Mr_Saki_Zamxaka_Chief_Executive _Officer 2025.png
+wwwroot\images\news\Gauteng-Township-Economic-Development-Act-Thumbnail-1448x2048.png
+wwwroot\images\news\MEDIA-STATEMENT-ON-THE-ESTABLISHMENT-OF-SMME-CRISIS-FUND-29042022-1-1448x2048.jpg
+wwwroot\images\news\R300-million-SMME-Crisis-Partnership-Fund-a-game-changer-for-township-business-1-1448x2048.jpg
+wwwroot\images\supported-businesses\GLB-2-400x250.png
+wwwroot\images\supported-businesses\GPG-audit-awards-1-400x250.png
+wwwroot\images\supported-businesses\IMG-20230603-WA0001-400x250.jpg
+wwwroot\images\supported-businesses\IMG-20240315-WA0025-400x250.jpg
+wwwroot\images\supported-businesses\LemmeChew20220811LGBTQ1975-400x250.jpg
+wwwroot\images\supported-businesses\Picture-4-400x250.jpg
+wwwroot\images\supported-businesses\PnP-Market-2.png
+wwwroot\images\supported-businesses\Pure-Baby-400x250.jpg
+wwwroot\images\supported-businesses\QondisIshishini-5-400x250.jpg
+wwwroot\images\supported-businesses\Screenshot-2024-04-17-at-16.06.32-400x250.png
+wwwroot\images\videos\Danchi-Group-SMME.jpg
+wwwroot\images\videos\GEP-APPTO-Video.jpg
+wwwroot\images\videos\vid-poster1 (1).png
+wwwroot\images\videos\vid-poster1 (2).png
+wwwroot\images\videos\vid-poster1.png
+wwwroot\images\videos\vid-poster2.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

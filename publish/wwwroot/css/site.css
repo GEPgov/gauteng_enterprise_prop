@@ -1,28 +1,7 @@
-﻿/*html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}*/
-/* ============================================
-   GEP Website - Complete Styled CSS
+﻿/* ============================================
+   GEP Website - Optimized CSS
    Color Palette: Black, Blue, Dark Green, Grey, Lime Green
+   Performance Optimized | Accessibility Enhanced
    ============================================ */
 
 /* ============================================
@@ -53,7 +32,7 @@ body {
     /* Accent & Special */
     --accent-lime: #84cc16;
     --hover-lime: #65a30d;
-    /* Shadows */
+    /* Shadows - Optimized for performance */
     --shadow-light: 0 2px 10px rgba(0, 0, 0, 0.1);
     --shadow-medium: 0 4px 20px rgba(0, 0, 0, 0.15);
     --shadow-heavy: 0 8px 30px rgba(0, 0, 0, 0.25);
@@ -80,6 +59,18 @@ html {
 @media (min-width: 768px) {
     html {
         font-size: 16px;
+    }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
     }
 }
 
@@ -428,20 +419,25 @@ img {
     }
 
 /* ============================================
-   Hero Section
+   Hero Section - Optimized for Performance
    ============================================ */
 .hero-section {
     position: relative;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85) 0%, rgba(26, 77, 46, 0.9) 100%), url('../images/hero-entrepreneur.jpg');
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85) 0%, rgba(26, 77, 46, 0.9) 100%), var(--dark-grey);
+    /* Removed background-attachment: fixed for better mobile performance */
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     min-height: 650px;
     display: flex;
     align-items: center;
     color: var(--white);
     overflow: hidden;
 }
+
+    /* Optional: Add background image via inline style or separate class for better control */
+    .hero-section.with-bg-image {
+        background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.85) 0%, rgba(26, 77, 46, 0.9) 100%), url('../images/hero-entrepreneur.jpg');
+    }
 
     .hero-section::before {
         content: '';
@@ -451,6 +447,7 @@ img {
         bottom: 0;
         left: 0;
         background: repeating-linear-gradient( 90deg, transparent, transparent 100px, rgba(144, 238, 144, 0.05) 100px, rgba(144, 238, 144, 0.05) 200px );
+        pointer-events: none;
     }
 
 .hero-content {
@@ -502,8 +499,22 @@ img {
     font-weight: 700;
 }
 
-.bg-primary {
+/* Consolidated gradient backgrounds */
+.bg-primary,
+.funding-card-header-startup,
+.success-card-header-primary {
     background: linear-gradient(135deg, var(--primary-dark-green), var(--secondary-dark-green)) !important;
+}
+
+.funding-card-header-contract,
+.success-card-header-secondary {
+    background: linear-gradient(135deg, var(--secondary-dark-green), var(--primary-dark-green)) !important;
+}
+
+.funding-card-header-growth,
+.success-card-header-gold {
+    background: linear-gradient(135deg, #d4af37, #f4e5a1) !important;
+    color: var(--dark-grey) !important;
 }
 
 .bg-success {
@@ -547,6 +558,8 @@ img {
     transition: var(--transition);
     border-top: 4px solid var(--primary-dark-green);
     height: 100%;
+    /* Use will-change sparingly for animated elements */
+    will-change: transform;
 }
 
     .stat-card:hover {
@@ -603,12 +616,13 @@ img {
     color: var(--text-dark);
     margin-bottom: 15px;
     position: relative;
+    padding-bottom: 25px;
 }
 
     .section-title:after {
         content: '';
         position: absolute;
-        bottom: -15px;
+        bottom: 0;
         left: 50%;
         transform: translateX(-50%);
         width: 80px;
@@ -621,7 +635,7 @@ img {
     font-size: 1.2rem;
     color: var(--text-muted);
     max-width: 700px;
-    margin: 25px auto 0;
+    margin: 0 auto;
 }
 
 .service-card {
@@ -633,6 +647,7 @@ img {
     height: 100%;
     text-align: center;
     border-bottom: 4px solid var(--primary-dark-green);
+    will-change: transform;
 }
 
     .service-card:hover {
@@ -675,6 +690,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: var(--transition);
+    display: inline-block;
 }
 
     .service-link:hover {
@@ -688,6 +704,163 @@ img {
     .service-link:hover i {
         transform: translateX(5px);
     }
+
+    /* Disabled state for service links */
+    .service-link.disabled {
+        color: var(--medium-grey);
+        cursor: not-allowed;
+        opacity: 0.6;
+        pointer-events: none;
+    }
+
+        .service-link.disabled:hover {
+            color: var(--medium-grey);
+        }
+
+        .service-link.disabled i {
+            transform: none;
+        }
+
+/* Funding Programs Section */
+.funding-programs-section {
+    padding: 80px 0;
+    background: var(--light-grey);
+}
+
+.funding-card {
+    transition: var(--transition);
+    will-change: transform;
+}
+
+    .funding-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    }
+
+/* Success Stories Section */
+.success-stories-section {
+    padding: 80px 0;
+    background: var(--white);
+}
+
+.success-card {
+    transition: var(--transition);
+    will-change: transform;
+}
+
+    .success-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    }
+
+/* News Section */
+.news-section {
+    padding: 80px 0;
+    background: var(--light-grey);
+}
+
+.news-card {
+    transition: var(--transition);
+    will-change: transform;
+}
+
+    .news-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    }
+
+/* ============================================
+   CTA Section - Improved
+   ============================================ */
+.cta-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #1e7e34 0%, #28a745 50%, #20c997 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+    .cta-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(255,255,255,0.05)" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,133.3C672,139,768,181,864,181.3C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+        opacity: 0.3;
+        pointer-events: none;
+    }
+
+.cta-title {
+    color: #ffd700;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.cta-text {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.cta-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+    .feature-item i {
+        color: #ffd700;
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+    }
+
+.btn-cta-primary {
+    background-color: #ffd700;
+    border: none;
+    color: #1e7e34;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    box-shadow: 0 4px 15px rgba(255,215,0,0.4);
+    transition: all 0.3s ease;
+}
+
+    .btn-cta-primary:hover {
+        background-color: #ffed4e;
+        color: #1e7e34;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(255,215,0,0.5);
+    }
+
+.btn-cta-secondary {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #1e7e34;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    transition: all 0.3s ease;
+}
+
+    .btn-cta-secondary:hover {
+        background-color: transparent;
+        border-color: #ffffff;
+        color: #ffffff;
+        transform: translateY(-3px);
+    }
+
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 /* ============================================
    Footer Styles
@@ -985,114 +1158,6 @@ img {
 }
 
 /* ============================================
-   Responsive Design
-   ============================================ */
-@media (max-width: 991.98px) {
-    .top-header-strip {
-        text-align: center;
-    }
-
-    .header-contact-info {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-        .header-contact-info span {
-            display: block;
-            margin: 5px 0;
-        }
-
-    .header-social-links {
-        justify-content: center;
-    }
-
-    .brand-title {
-        font-size: 26px;
-    }
-
-    .brand-subtitle {
-        font-size: 10px;
-    }
-
-    .navbar-nav .nav-link {
-        text-align: center;
-        margin: 5px 0;
-    }
-
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-    }
-
-    .footer-bottom-links {
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .footer-widget {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .logo-main {
-        width: 50px;
-        height: 50px;
-    }
-
-    .brand-title {
-        font-size: 22px;
-    }
-
-    .brand-subtitle {
-        font-size: 9px;
-    }
-
-    .hero-title {
-        font-size: 2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.1rem;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-        .hero-buttons .btn {
-            width: 100%;
-            max-width: 280px;
-        }
-
-    .stat-number {
-        font-size: 2.5rem;
-    }
-
-    .service-card,
-    .stat-card {
-        margin-bottom: 30px;
-    }
-
-    .footer-bottom-links {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .back-to-top {
-        bottom: 20px;
-        right: 20px;
-        width: 45px;
-        height: 45px;
-    }
-}
-
-/* ============================================
    Animation Classes
    ============================================ */
 @keyframes fadeInUp {
@@ -1232,31 +1297,6 @@ img {
 }
 
 /* ============================================
-   Print Styles
-   ============================================ */
-@media print {
-    .top-header-strip,
-    .main-header,
-    .main-footer,
-    .back-to-top,
-    .hero-buttons,
-    .btn {
-        display: none !important;
-    }
-
-    .main-content {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    * {
-        box-shadow: none !important;
-        background: white !important;
-        color: black !important;
-    }
-}
-
-/* ============================================
    Custom Scrollbar (Webkit browsers)
    ============================================ */
 ::-webkit-scrollbar {
@@ -1326,32 +1366,7 @@ img {
 }
 
 /* ============================================
-   Welcome Banner (if used)
-   ============================================ */
-.welcome-banner {
-    background: linear-gradient(135deg, var(--primary-dark-green), var(--black));
-    color: var(--white);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-heavy);
-}
-
-.welcome-title {
-    color: var(--lime-green);
-}
-
-/* ============================================
-   Special Effects
-   ============================================ */
-.glow-effect {
-    box-shadow: 0 0 20px rgba(144, 238, 144, 0.3);
-}
-
-    .glow-effect:hover {
-        box-shadow: 0 0 30px rgba(144, 238, 144, 0.5);
-    }
-
-/* ============================================
-   Progress Bars (if needed)
+   Progress Bars
    ============================================ */
 .progress {
     height: 8px;
@@ -1392,16 +1407,226 @@ img {
 }
 
 /* ============================================
-   Smooth Transitions for All Interactive Elements
+   Responsive Design
    ============================================ */
-button,
-a,
-input,
-select,
-textarea {
-    transition: var(--transition);
+@media (max-width: 991.98px) {
+    .top-header-strip {
+        text-align: center;
+    }
+
+    .header-contact-info {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+        .header-contact-info span {
+            display: block;
+            margin: 5px 0;
+        }
+
+    .header-social-links {
+        justify-content: center;
+    }
+
+    .brand-title {
+        font-size: 26px;
+    }
+
+    .brand-subtitle {
+        font-size: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .footer-bottom-links {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .footer-widget {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .cta-title {
+        font-size: 1.75rem;
+    }
+
+    .cta-buttons {
+        align-items: center;
+    }
+
+    .cta-features {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .logo-main {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-title {
+        font-size: 22px;
+    }
+
+    .brand-subtitle {
+        font-size: 9px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .hero-buttons .btn {
+            width: 100%;
+            max-width: 280px;
+        }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .service-card,
+    .stat-card {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .cta-title {
+        font-size: 1.5rem;
+    }
+
+    .cta-features {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .btn-cta-primary,
+    .btn-cta-secondary {
+        width: 100%;
+    }
 }
 
 /* ============================================
-   END OF STYLESHEET
+   Performance Optimizations
+   ============================================ */
+
+/* Use containment for card components to improve rendering */
+.service-card,
+.stat-card,
+.funding-card,
+.success-card,
+.news-card {
+    contain: layout style paint;
+}
+
+/* Optimize animations for better performance */
+@media (prefers-reduced-motion: no-preference) {
+    .service-card,
+    .stat-card,
+    .funding-card,
+    .success-card,
+    .news-card {
+        will-change: transform;
+    }
+}
+
+/* Remove will-change after hover to free up resources */
+.service-card:not(:hover),
+.stat-card:not(:hover),
+.funding-card:not(:hover),
+.success-card:not(:hover),
+.news-card:not(:hover) {
+    will-change: auto;
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+    .top-header-strip,
+    .main-header,
+    .main-footer,
+    .back-to-top,
+    .hero-buttons,
+    .btn,
+    .cta-section {
+        display: none !important;
+    }
+
+    .main-content {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    * {
+        box-shadow: none !important;
+        background: white !important;
+        color: black !important;
+    }
+
+    a {
+        text-decoration: underline !important;
+    }
+
+    .hero-section {
+        background: white !important;
+        color: black !important;
+        min-height: auto !important;
+    }
+}
+
+/* ============================================
+   High Contrast Mode Support
+   ============================================ */
+@media (prefers-contrast: high) {
+    :root {
+        --shadow-light: none;
+        --shadow-medium: none;
+        --shadow-heavy: none;
+    }
+
+    .btn,
+    .card,
+    .service-card,
+    .stat-card {
+        border: 2px solid currentColor !important;
+    }
+}
+
+/* ============================================
+   END OF OPTIMIZED STYLESHEET
    ============================================ */
