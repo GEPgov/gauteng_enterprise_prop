@@ -1,4 +1,5 @@
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\Gauteng Enterprise Propeller.exe
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\publish\web.config
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\web.config
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\web.config
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\appsettings.Development.json
@@ -13,6 +14,11 @@ C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise P
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\Gauteng Enterprise Propeller.deps.json
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\Gauteng Enterprise Propeller.runtimeconfig.json
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\Gauteng Enterprise Propeller.staticwebassets.endpoints.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\publish\appsettings.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\publish\Gauteng Enterprise Propeller.deps.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\publish\Gauteng Enterprise Propeller.runtimeconfig.json
+C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\publish\publish\publish\Gauteng Enterprise Propeller.staticwebassets.endpoints.json
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\Gauteng Enterprise Propeller.dll
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\Gauteng Enterprise Propeller.deps.json
 C:\Users\VNgomane\source\repos\Gauteng Enterprise Propeller\Gauteng Enterprise Propeller\publish\Gauteng Enterprise Propeller.runtimeconfig.json
