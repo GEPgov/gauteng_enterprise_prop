@@ -107,6 +107,7 @@ wwwroot\images\Board Members\Web Profile_Ms Cherity Morangwe-Diale_Board.png
 wwwroot\images\Board Members\Web Profile_Ms Kanabo Skhosana_Board.png
 wwwroot\images\Board Members\Web Profile_Ms Refilwe Letwaba_Board.png
 wwwroot\images\Board Members\Web Profile_Ms Sheila Sekhitla_Board.png
+wwwroot\images\Board Members\Web_Profile_Nomvula Mathenjwa.png
 wwwroot\images\GEP CI 02_06_2023.pdf
 wwwroot\images\GEP Colours.pdf
 wwwroot\images\GEP Typography (Fonts).pdf
@@ -122,6 +123,7 @@ wwwroot\images\Management\Web_Profile_Saki_Zamxaka_Mr_Saki_Zamxaka_Chief_Executi
 wwwroot\images\news\Gauteng-Township-Economic-Development-Act-Thumbnail-1448x2048.png
 wwwroot\images\news\MEDIA-STATEMENT-ON-THE-ESTABLISHMENT-OF-SMME-CRISIS-FUND-29042022-1-1448x2048.jpg
 wwwroot\images\news\R300-million-SMME-Crisis-Partnership-Fund-a-game-changer-for-township-business-1-1448x2048.jpg
+wwwroot\images\supported-businesses\DM Department of Higher Education and Training and Microsoft SA sign AI and digital skills development MoU SS.pdf
 wwwroot\images\supported-businesses\GLB-2-400x250.png
 wwwroot\images\supported-businesses\GPG-audit-awards-1-400x250.png
 wwwroot\images\supported-businesses\IMG-20230603-WA0001-400x250.jpg
