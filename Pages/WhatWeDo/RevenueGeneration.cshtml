@@ -1,4 +1,246 @@
 ﻿@page
 @model Gauteng_Enterprise_Propeller.Pages.WhatWeDo.RevenueGenerationModel
 @{
+    ViewData["Title"] = "Revenue Generation & Partnerships";
 }
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <!-- Main Header -->
+            <div class="page-header py-5 mb-5 bg-light">
+                <div class="container">
+                    <h1 class="display-3 fw-bold text-primary text-center mb-0">REVENUE GENERATION & PARTNERSHIPS</h1>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Main Content -->
+                <section class="mb-5">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-5">
+                            <p class="fs-5 mb-4">
+                                The Revenue Generation Unit was born out of the recognition that there are limited resources to address the Gauteng's economic agenda, hence the need to crowd-in resources from national, provincial and local government, SMME support organizations, commercial banks, international donor organizations and private sector. GEP is also responsible to assist with the mobilization of non-financial support to SMME's and Co-Ops. These are achieved by partnering with organisations that are in a position to provide Enterprise Supplier Development and access to markets.
+                            </p>
+                            <p class="fs-5 mb-0">
+                                The strategy and implementation plan are premised on forging partnerships with all potential funders, which will result in GEP disbursing the partner funding or at best contracting fund management entities to manage funds on behalf of GEP and ensure repayment targets are met in-order to guarantee the sustainability of the fund. A third-party fund policy has been developed to ensure timeous and professional financial support to SMMEs with GEP focusing on the developmental agenda for high growth SMMEs that will graduate into the mainstream of the economy. In some instances, a facility is agreed upon with the funding partner and GEP plays a project preparation role in order to present bankable projects to funders.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- International Relations Programme -->
+                <section class="mb-5">
+                    <div class="card border-0 shadow-sm bg-primary text-white">
+                        <div class="card-body p-5">
+                            <h2 class="display-6 fw-bold mb-4">INTERNATIONAL RELATIONS PROGRAMME:</h2>
+                            <p class="fs-5 mb-4">
+                                The International Relations Programme supports other GEP activities that require due diligence for potential TMR high impact projects requiring funding and support as per the recommendation and/or resolution by the Business Development Committee (BDC) or the Credit Committee of the Board (CCB). The purpose of this programme is as follows:
+                            </p>
+                            <ul class="fs-5 list-unstyled">
+                                <li class="mb-3">
+                                    <i class="bi bi-chevron-right me-2"></i>
+                                    To secure International funding through the International Donor Community
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-chevron-right me-2"></i>
+                                    To provide access to markets for SMMEs as per the TER strategy
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-chevron-right me-2"></i>
+                                    To benchmark against International competitors
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Venue Generation & Partnerships -->
+                <section class="mb-5">
+                    <div class="text-center py-4">
+                        <h2 class="display-5 fw-bold text-primary">VENUE GENERATION & PARTNERSHIPS</h2>
+                    </div>
+                </section>
+
+                <!-- Revenue Generation Unit Objectives -->
+                <section class="mb-5">
+                    <div class="text-center py-4 mb-4">
+                        <h2 class="display-5 fw-bold text-primary">REVENUE GENERATION UNIT OBJECTIVES</h2>
+                    </div>
+
+                    <!-- Partnerships -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-5">
+                            <h3 class="h2 fw-bold text-primary mb-4">Partnerships</h3>
+                            <p class="fs-5 mb-0">
+                                In line with the broader transformation agenda, one of the key strategic focus areas for GEP is the development of value adding partnerships to assist the organization in meeting its legislated mandate.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Stakeholders -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-5">
+                            <h3 class="h2 fw-bold text-primary mb-4">Stakeholders</h3>
+                            <p class="fs-5 mb-0">
+                                The partnerships are generally concluded with a number of stakeholders in the SMME development space.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Private and Public Sectors -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-5">
+                            <h3 class="h2 fw-bold text-primary mb-4">private and public sectors</h3>
+                            <p class="fs-5 mb-0">
+                                The Revenue Generation Unit engages partners from both private and public sector with the objective of coordinating SMME and Cooperatives funding and business development resources.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- DFI's -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-5">
+                            <h3 class="h2 fw-bold text-primary mb-4">DFI's</h3>
+                            <p class="fs-5 mb-0">
+                                The engagement with other DFIs is premised on the allocation of roles and responsibilities in executing support to SMME and Cooperatives. Resources are typically financial and in some instances facilitation of access to opportunities.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Strategic Partners Section -->
+                <section class="mb-5 pb-5">
+                    <div class="text-center py-5 mb-5">
+                        <h2 class="display-5 fw-bold text-primary">STRATEGIC PARTNERS</h2>
+                    </div>
+
+                    <div class="row g-4">
+                        @for (int i = 1; i <= 19; i++)
+                        {
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                <div class="partner-card card border shadow-sm h-100">
+                                    <div class="card-body d-flex align-items-center justify-content-center p-3">
+                                        <img src="~/images/partners/partner-logo-@(i).png"
+                                             alt="Strategic Partner @i Logo"
+                                             class="img-fluid partner-logo"
+                                             style="max-width: 100%; max-height: 100px; object-fit: contain;"
+                                             onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'placeholder-logo d-flex align-items-center justify-content-center w-100 h-100\' style=\'min-height: 100px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px;\'><div class=\'text-center text-white p-3\'><i class=\'bi bi-building fs-1 mb-2 d-block\'></i><small class=\'d-block fw-bold\'>Partner @i</small></div></div>';" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <!-- Additional Note for Partners -->
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <div class="alert alert-info border-0 shadow-sm p-4" role="alert">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-info-circle-fill fs-2 me-3"></i>
+                                    <div>
+                                        <h4 class="alert-heading mb-2">Strategic Partner Network</h4>
+                                        <p class="mb-0">
+                                            GEP collaborates with a diverse range of strategic partners including financial institutions, development finance institutions, government agencies, and private sector organizations to deliver comprehensive support to SMMEs and Cooperatives across Gauteng Province.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .partner-card {
+        transition: all 0.3s ease;
+        background: #fff;
+    }
+
+        .partner-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15) !important;
+        }
+
+    .partner-logo {
+        filter: grayscale(100%);
+        opacity: 0.7;
+        transition: all 0.3s ease;
+    }
+
+    .partner-card:hover .partner-logo {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+
+    .placeholder-logo {
+        animation: fadeIn 0.5s ease-in;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .card {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .page-header {
+        border-bottom: 4px solid #0d6efd;
+    }
+
+    .bi {
+        vertical-align: middle;
+    }
+
+    @@media (max-width: 768px) {
+        .display-3 {
+            font-size: 2.5rem;
+        }
+
+        .display-5 {
+            font-size: 2rem;
+        }
+
+        .display-6 {
+            font-size: 1.75rem;
+        }
+    }
+</style>
+
+<script>
+    // Enhanced placeholder fallback with retry logic
+    document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('.partner-logo');
+
+        images.forEach((img, index) => {
+            // Set a timeout fallback in case onerror doesn't trigger
+            setTimeout(function() {
+                if (!img.complete || img.naturalHeight === 0) {
+                    const partnerNum = index + 1;
+                    const placeholder = document.createElement('div');
+                    placeholder.className = 'placeholder-logo d-flex align-items-center justify-content-center w-100 h-100';
+                    placeholder.style.cssText = 'min-height: 100px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px;';
+                    placeholder.innerHTML = `
+                        <div class="text-center text-white p-3">
+                            <i class="bi bi-building fs-1 mb-2 d-block"></i>
+                            <small class="d-block fw-bold">Partner ${partnerNum}</small>
+                        </div>
+                    `;
+                    img.parentElement.innerHTML = '';
+                    img.parentElement.appendChild(placeholder);
+                }
+            }, 2000);
+        });
+    });
+</script>
